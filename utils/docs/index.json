@@ -1,0 +1,1700 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/array/array.utils.js",
+    "content": "import { hasPropertyOf } from '../model';\nimport { getBoolean, getNumber, getString, getValueOrDefault } from '../primitive';\n\n/**\n * A helper method to determine if the input obj is an array or not.\n *\n * @param {any} [obj] - the obj that may or may not be an array\n * @return {boolean}\n */\nexport function isArray(obj) {\n  obj = getValueOrDefault(obj, []);\n  return obj.constructor === Array;\n}\n\n/**\n * Get an array from any input.\n *\n * If given a single item, it will be added to an array and that array will be returned.\n *\n * @param {any} [objs] - the objects that will be returned as an array\n * @return {any[]}\n */\nexport function getArray(objs) {\n  objs = getValueOrDefault(objs, []);\n  let array = [];\n\n  if (isArray(objs)) {\n    array = objs;\n  } else {\n    array = [objs];\n  }\n\n  return array;\n}\n\n/**\n * Get an array of boolean values from any input.\n *\n * If given a single item, it will be added to an array and that array will be returned.\n *\n * @param {any} [objs] - the objects that will be returned as an array\n * @return {boolean[]}\n */\nexport function getArrayOfBooleans(objs) {\n  objs = getArray(objs);\n  const array = [];\n\n  for (let obj of objs) {\n    if (obj != null) {\n      obj = getBoolean(obj);\n      array.push(obj);\n    }\n  }\n\n  return array;\n}\n\n/**\n * Get an array of models of the given class from the given object(s).\n *\n * If given a single item, it will be added to an array and that array will be returned.\n *\n * @param {T} [clazz] - the class that each object in the array will be an instance of\n * @param {any} [objs] - the objects that will be converted to the class type and returned as an array\n * @return {T[]}\n */\nexport function getArrayOfModels(clazz, objs) {\n  objs = getArray(objs);\n  const array = [];\n\n  for (const obj of objs) {\n    if (hasPropertyOf(clazz, obj)) {\n      array.push(new clazz(obj));\n    }\n  }\n\n  return array;\n}\n\n/**\n * Get an array of number values from any input.\n *\n * If given a single item, it will be added to an array and that array will be returned.\n *\n * @param {any} [objs] - the objects that will be returned as an array\n * @return {number[]}\n */\nexport function getArrayOfNumbers(objs) {\n  objs = getArray(objs);\n  const array = [];\n\n  for (let obj of objs) {\n    if (obj != null) {\n      obj = getNumber(obj);\n      array.push(obj);\n    }\n  }\n\n  return array;\n}\n\n/**\n * Get an array of string values from any input.\n *\n * If given a single item, it will be added to an array and that array will be returned.\n *\n * @param {any} [objs] - the objects that will be returned as an array\n * @return {string[]}\n */\nexport function getArrayOfStrings(objs) {\n  objs = getArray(objs);\n  const array = [];\n\n  for (let obj of objs) {\n    if (obj != null) {\n      obj = getString(obj);\n      array.push(obj);\n    }\n  }\n\n  return array;\n}\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/array/array.utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "isArray",
+    "memberof": "src/array/array.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/array/array.utils.js~isArray",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/array/array.utils.js",
+    "importStyle": "{isArray}",
+    "description": "A helper method to determine if the input obj is an array or not.",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "obj",
+        "description": "the obj that may or may not be an array"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "getArray",
+    "memberof": "src/array/array.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/array/array.utils.js~getArray",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/array/array.utils.js",
+    "importStyle": "{getArray}",
+    "description": "Get an array from any input.\n\nIf given a single item, it will be added to an array and that array will be returned.",
+    "lineNumber": 23,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "objs",
+        "description": "the objects that will be returned as an array"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "any[]"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "getArrayOfBooleans",
+    "memberof": "src/array/array.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/array/array.utils.js~getArrayOfBooleans",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/array/array.utils.js",
+    "importStyle": "{getArrayOfBooleans}",
+    "description": "Get an array of boolean values from any input.\n\nIf given a single item, it will be added to an array and that array will be returned.",
+    "lineNumber": 44,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "objs",
+        "description": "the objects that will be returned as an array"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean[]"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "getArrayOfModels",
+    "memberof": "src/array/array.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/array/array.utils.js~getArrayOfModels",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/array/array.utils.js",
+    "importStyle": "{getArrayOfModels}",
+    "description": "Get an array of models of the given class from the given object(s).\n\nIf given a single item, it will be added to an array and that array will be returned.",
+    "lineNumber": 67,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "T"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "clazz",
+        "description": "the class that each object in the array will be an instance of"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "objs",
+        "description": "the objects that will be converted to the class type and returned as an array"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "T[]"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "getArrayOfNumbers",
+    "memberof": "src/array/array.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/array/array.utils.js~getArrayOfNumbers",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/array/array.utils.js",
+    "importStyle": "{getArrayOfNumbers}",
+    "description": "Get an array of number values from any input.\n\nIf given a single item, it will be added to an array and that array will be returned.",
+    "lineNumber": 88,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "objs",
+        "description": "the objects that will be returned as an array"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number[]"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "getArrayOfStrings",
+    "memberof": "src/array/array.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/array/array.utils.js~getArrayOfStrings",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/array/array.utils.js",
+    "importStyle": "{getArrayOfStrings}",
+    "description": "Get an array of string values from any input.\n\nIf given a single item, it will be added to an array and that array will be returned.",
+    "lineNumber": 110,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "objs",
+        "description": "the objects that will be returned as an array"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string[]"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/array/array.utils.spec.js",
+    "content": "import {\n  getArray,\n  getArrayOfBooleans,\n  getArrayOfModels,\n  getArrayOfNumbers,\n  getArrayOfStrings\n} from './array.utils';\n\nclass TestModel {\n  constructor() {\n    this.test = 'test';\n    this.x = 'test';\n  }\n}\n\ndescribe('array.utils', function () {\n\n  describe('getArray(objs)', function () {\n    it('returns an empty array when objs is undefined', function () {\n      const objs = undefined;\n      const result = getArray(objs);\n      const expected = [];\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an empty array when objs is null', function () {\n      const objs = null;\n      const result = getArray(objs);\n      const expected = [];\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an array of strings objs is a string', function () {\n      const objs = 'test';\n      const result = getArray(objs);\n      const expected = ['test'];\n      expect(result).toEqual(expected);\n    });\n\n    it('returns objs when it is an array', function () {\n      const objs = ['test'];\n      const result = getArray(objs);\n      const expected = ['test'];\n      expect(result).toEqual(expected);\n    });\n  });\n\n  describe('getArrayOfModels(clazz, objs)', function () {\n    it('returns an empty array when objs is undefined', function () {\n      const objs = undefined;\n      const result = getArrayOfModels(TestModel, objs);\n      const expected = [];\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an empty array when objs is null', function () {\n      const objs = null;\n      const result = getArrayOfModels(TestModel, objs);\n      const expected = [];\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an array of models when objs is a single model', function () {\n      const objs = new TestModel();\n      const result = getArrayOfModels(TestModel, objs);\n      const expected = [new TestModel()];\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an array of models when objs is an array of models', function () {\n      const objs = [new TestModel()];\n      const result = getArrayOfModels(TestModel, objs);\n      const expected = [new TestModel()];\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an empty array when objs is not of the given model type', function () {\n      const objs = [{name: 'name'}];\n      const result = getArrayOfModels(TestModel, objs);\n      const expected = [];\n      expect(result).toEqual(expected);\n    });\n  });\n});\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/array/array.utils.spec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "class",
+    "name": "TestModel",
+    "memberof": "src/array/array.utils.spec.js",
+    "static": true,
+    "longname": "src/array/array.utils.spec.js~TestModel",
+    "access": "public",
+    "export": false,
+    "importPath": "@practicalwebdev/utils/src/array/array.utils.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 57,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/array/array.utils.spec.js~TestModel",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/array/array.utils.spec.js~TestModel#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "test",
+    "memberof": "src/array/array.utils.spec.js~TestModel",
+    "static": false,
+    "longname": "src/array/array.utils.spec.js~TestModel#test",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "x",
+    "memberof": "src/array/array.utils.spec.js~TestModel",
+    "static": false,
+    "longname": "src/array/array.utils.spec.js~TestModel#x",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "src/array/index.js",
+    "content": "export * from './array.utils';\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/array/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/date/date.utils.js",
+    "content": "\n/**\n * Check if the give value can be converted into a valid JavaScript Date\n *\n * @param {Date | number | string} date - The value to check if it can be converted to a date\n * @return {boolean}\n */\nexport function isDate(date) {\n  let isValid = true;\n\n  try {\n    const d = new Date(date);\n    isValid = d.toString() !== 'Invalid Date';\n  } catch (err) {\n    console.error('ModelUtils.isValidDate - Invalid Date: ', date);\n    isValid = false;\n  }\n  return isValid;\n}\n\n/**\n * Get the given date formatted as .toLocaleDateString\n *\n * @param {Date | number | string} date - The date to format\n * @return {string}\n */\nexport function formatDate(date) {\n  let formattedDate = '';\n\n  try {\n    formattedDate = new Date(date).toLocaleDateString();\n  } catch (err) {\n    console.error('ModelUtils.formatDate - Invalid date: ', date);\n  }\n\n  return formattedDate;\n}\n\n/**\n * Get a date from a value that represents a date\n *\n * @param {Date | number | string} date - The value to get the date from\n * @return {Date | string}\n */\nexport function getDate(date) {\n  let theDate = '';\n\n  if (isValidDate(date)) {\n    theDate = new Date(date);\n  }\n\n  return theDate;\n}\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/date/date.utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "function",
+    "name": "isDate",
+    "memberof": "src/date/date.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/date/date.utils.js~isDate",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/date/date.utils.js",
+    "importStyle": "{isDate}",
+    "description": "Check if the give value can be converted into a valid JavaScript Date",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Date ",
+          " number ",
+          " string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "date",
+        "description": "The value to check if it can be converted to a date"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "formatDate",
+    "memberof": "src/date/date.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/date/date.utils.js~formatDate",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/date/date.utils.js",
+    "importStyle": "{formatDate}",
+    "description": "Get the given date formatted as .toLocaleDateString",
+    "lineNumber": 27,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Date ",
+          " number ",
+          " string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "date",
+        "description": "The date to format"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "getDate",
+    "memberof": "src/date/date.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/date/date.utils.js~getDate",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/date/date.utils.js",
+    "importStyle": "{getDate}",
+    "description": "Get a date from a value that represents a date",
+    "lineNumber": 45,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Date ",
+          " number ",
+          " string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "date",
+        "description": "The value to get the date from"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Date ",
+        " string"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "src/date/date.utils.spec.js",
+    "content": "import { formatDate, getDate, isValidDate } from './date.utils';\n\ndescribe('date.utils', function () {\n\n  describe('formatDate(date)', function () {\n    it('returns \"Invalid Date\" for an invalid date', function () {\n      const date = '';\n      const expected = 'Invalid Date';\n      const result = formatDate(date);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns a displayable date for a number', function () {\n      const date = 1577941200000;\n      const expected = new Date(date).toLocaleDateString();\n      const result = formatDate(date);\n      expect(result).toEqual(expected);\n    });\n  });\n\n  describe('getDate(date)', function () {\n    it('returns a JavaScript Date if the input is a valid date', function () {\n      const date = '1/2/2020';\n      const expected = new Date(date).toString();\n      const result = getDate(date).toString();\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an empty string if the input is not a valid date', function () {\n      const date = '99/00/2020';\n      const expected = '';\n      const result = getDate(date);\n      expect(result).toEqual(expected);\n    });\n  });\n\n  describe('isValidDate(date)', function () {\n    it('returns true when the date is a correct mmddyyyy string', function () {\n      const date = '1/2/2020';\n      const expected = true;\n      const result = isValidDate(date);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true when the date is a Date', function () {\n      const date = new Date();\n      const expected = true;\n      const result = isValidDate(date);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true when the date is null', function () {\n      const date = null;\n      const expected = true;\n      const result = isValidDate(date);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true when the date is a number', function () {\n      const date = 1234;\n      const expected = true;\n      const result = isValidDate(date);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when the date is an empty string', function () {\n      const date = '';\n      const expected = false;\n      const result = isValidDate(date);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when the date is NaN', function () {\n      const date = NaN;\n      const expected = false;\n      const result = isValidDate(date);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when the date is not correctly formatted', function () {\n      const date = '20200201';\n      const expected = false;\n      const result = isValidDate(date);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when the date is not a correct mmddyyyy date', function () {\n      const date = '60/70/2020';\n      const expected = false;\n      const result = isValidDate(date);\n      expect(result).toEqual(expected);\n    });\n  });\n});\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/date/date.utils.spec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/date/index.js",
+    "content": "export * from './date.utils';\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/date/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "export * from './';\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "src/model/index.js",
+    "content": "export * from './model.utils';\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/model/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "file",
+    "name": "src/model/model.utils.js",
+    "content": "\n/**\n * Determine if an obj has any property of a given class.\n *\n * @param {any} clazz - The class to compare the given object to\n * @param {any} obj - the object that could have properties in common with the given class\n * @return {boolean}\n */\nexport function hasPropertyOf(clazz, obj) {\n  if (clazz == null || obj == null) { return false; }\n  const model = new clazz();\n  const modelKeys = Object.keys(model);\n\n  for (const key of modelKeys) {\n    if (obj.hasOwnProperty(key)) {\n      return true;\n    }\n  }\n\n  return false;\n}\n\n\n/**\n * Determine if an obj has all properties in common with a given class.\n *\n * @param {any} clazz - The class to compare the given object to\n * @param {any} obj - the object that could have properties in common with the given class\n * @return {boolean}\n */\nexport function isInstanceOf(clazz, obj) {\n  if (clazz == null || obj == null) { return false; }\n  const model = new clazz();\n  const modelKeys = Object.keys(model);\n\n  for (const key of modelKeys) {\n    if (!obj.hasOwnProperty(key)) {\n      return false;\n    }\n  }\n\n  return true;\n}\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/model/model.utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 70,
+    "kind": "function",
+    "name": "hasPropertyOf",
+    "memberof": "src/model/model.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/model/model.utils.js~hasPropertyOf",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/model/model.utils.js",
+    "importStyle": "{hasPropertyOf}",
+    "description": "Determine if an obj has any property of a given class.",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "clazz",
+        "description": "The class to compare the given object to"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "obj",
+        "description": "the object that could have properties in common with the given class"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "isInstanceOf",
+    "memberof": "src/model/model.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/model/model.utils.js~isInstanceOf",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/model/model.utils.js",
+    "importStyle": "{isInstanceOf}",
+    "description": "Determine if an obj has all properties in common with a given class.",
+    "lineNumber": 31,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "clazz",
+        "description": "The class to compare the given object to"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "obj",
+        "description": "the object that could have properties in common with the given class"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/model/model.utils.spec.js",
+    "content": "import { hasPropertyOf, isInstanceOf } from './model.utils';\n\nclass TestModel {\n  constructor() {\n    this.test = 'test';\n    this.x = 'test';\n  }\n}\n\ndescribe('model.utils', function () {\n\n  describe('hasPropertyOf(clazz, obj)', function () {\n    it('has a function named hasPropertyOf', function () {\n      expect(typeof hasPropertyOf).toEqual('function');\n    });\n\n    it('returns false when clazz is undefined', function () {\n      const obj = {};\n      const expected = false;\n      const result = hasPropertyOf(null, obj);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when obj is undefined', function () {\n      const obj = null;\n      const expected = false;\n      const result = hasPropertyOf(TestModel, obj);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when obj does not have any properties in common with clazz', function () {\n      const obj = {name: 'name'};\n      const expected = false;\n      const result = hasPropertyOf(TestModel, obj);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true when obj has properties in common with clazz', function () {\n      const obj = {test: 'test'};\n      const expected = true;\n      const result = hasPropertyOf(TestModel, obj);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true when obj is an instance of clazz', function () {\n      const obj = new TestModel();\n      const expected = true;\n      const result = hasPropertyOf(TestModel, obj);\n      expect(result).toEqual(expected);\n    });\n  });\n\n  describe('isInstanceOf(clazz, obj)', function () {\n    it('has a function named isInstanceOf', function () {\n      expect(typeof isInstanceOf).toEqual('function');\n    });\n\n    it('returns false when clazz is undefined', function () {\n      const obj = {};\n      const expected = false;\n      const result = isInstanceOf(null, obj);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when obj is undefined', function () {\n      const obj = null;\n      const expected = false;\n      const result = isInstanceOf(TestModel, obj);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when obj does not have any properties in common with clazz', function () {\n      const obj = {name: 'name'};\n      const expected = false;\n      const result = isInstanceOf(TestModel, obj);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when obj does not have all properties in common with clazz', function () {\n      const obj = {test: 'test'};\n      const expected = false;\n      const result = isInstanceOf(TestModel, obj);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true when obj is an instance of clazz', function () {\n      const obj = new TestModel();\n      const expected = true;\n      const result = isInstanceOf(TestModel, obj);\n      expect(result).toEqual(expected);\n    });\n  });\n});\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/model/model.utils.spec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "class",
+    "name": "TestModel",
+    "memberof": "src/model/model.utils.spec.js",
+    "static": true,
+    "longname": "src/model/model.utils.spec.js~TestModel",
+    "access": "public",
+    "export": false,
+    "importPath": "@practicalwebdev/utils/src/model/model.utils.spec.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "ignore": true
+  },
+  {
+    "__docId__": 74,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/model/model.utils.spec.js~TestModel",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/model/model.utils.spec.js~TestModel#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "member",
+    "name": "test",
+    "memberof": "src/model/model.utils.spec.js~TestModel",
+    "static": false,
+    "longname": "src/model/model.utils.spec.js~TestModel#test",
+    "access": "public",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "member",
+    "name": "x",
+    "memberof": "src/model/model.utils.spec.js~TestModel",
+    "static": false,
+    "longname": "src/model/model.utils.spec.js~TestModel#x",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "file",
+    "name": "src/primitive/index.js",
+    "content": "export * from './primitive.utils';\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/primitive/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "src/primitive/primitive.utils.js",
+    "content": "import { isArray } from '../array';\n\nexport const defaultArray = [];\nexport const defaultBoolean = false;\nexport const defaultNumber = 0;\nexport const defaultObject = {};\nexport const defaultString = '';\n\n/**\n * Get a boolean from any input.\n *\n * @param {any} [value] - the value that will be returned as a boolean\n * @param {boolean} [defaultValue=false] - the value that will be returned if the value is undefined or null\n * @return {boolean}\n */\nexport function getBoolean(value, defaultValue = defaultBoolean) {\n  if (value === 'false') {\n    value = false;\n  }\n  value = value == null ? defaultValue : !!value;\n  return value;\n}\n\n/**\n * Get a number from any input.\n *\n * @param {any} [value] - the value that will be returned as a number\n * @param {number} [defaultValue=0] - the value that will be returned if the value is undefined or null\n * @return {number}\n */\nexport function getNumber(value, defaultValue = defaultNumber) {\n  let num = value == null ? defaultValue : Number(value).valueOf();\n  if (isNaN(num)) {\n    num = defaultValue;\n  }\n  return num;\n}\n\n/**\n * Get an object from any input.\n *\n * If the input value is not an object, an object will be created and the input value will be assigned to its value field.\n *\n * @param {any} [value] - the value that will be returned as an object\n * @param {number} [defaultValue={}] - the value that will be returned if the value is undefined or null\n * @return {object}\n */\nexport function getObject(value, defaultValue = defaultObject) {\n  value = getValueOrDefault(value, defaultValue);\n  if (value != null && value.toString() !== '[object Object]') {\n    value = {value};\n  }\n  return value;\n}\n\n/**\n * Get a string from any input.\n *\n * @param {any} [value] - the value that will be returned as a string\n * @param {string} [defaultValue=''] - the value that will be returned if the value is undefined or null\n * @return {string}\n */\nexport function getString(value, defaultValue = defaultString) {\n  let str = getValueOrDefault(value, defaultValue);\n\n  if (isArray(value) || isFunction(value)) {\n    str = defaultValue;\n  }\n\n  if (str != null) {\n    str = str.toString();\n  }\n\n  if (str === '[object Object]') {\n    str = defaultValue;\n  }\n\n  return str;\n}\n\n/**\n * A helper method to either return a given value or return a default value if the given value is undefined or null.\n *\n * @param {any} [value] - the value that will be returned\n * @param {any} [defaultValue=null] - the value that will be returned if the value is undefined or null\n * @return {any}\n */\nexport function getValueOrDefault(value, defaultValue = null) {\n  return value == null ? defaultValue : value;\n}\n\n/**\n * A helper method to either return a given value or null if the given value is undefined or null.\n *\n * @param {any} [value] - the value that will be returned\n * @return {any}\n */\nexport function getValueOrNull(value) {\n  return getValueOrDefault(value, null);\n}\n\n/**\n * A helper method to determine if the input value is a function or not.\n *\n * @param {any} [value] - the value that may or may not be a function\n * @return {boolean}\n */\nexport function isFunction(value) {\n  return typeof value === 'function';\n}\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "variable",
+    "name": "defaultArray",
+    "memberof": "src/primitive/primitive.utils.js",
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~defaultArray",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{defaultArray}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "variable",
+    "name": "defaultBoolean",
+    "memberof": "src/primitive/primitive.utils.js",
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~defaultBoolean",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{defaultBoolean}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "variable",
+    "name": "defaultNumber",
+    "memberof": "src/primitive/primitive.utils.js",
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~defaultNumber",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{defaultNumber}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "defaultObject",
+    "memberof": "src/primitive/primitive.utils.js",
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~defaultObject",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{defaultObject}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{}"
+      ]
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "defaultString",
+    "memberof": "src/primitive/primitive.utils.js",
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~defaultString",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{defaultString}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "getBoolean",
+    "memberof": "src/primitive/primitive.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~getBoolean",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{getBoolean}",
+    "description": "Get a boolean from any input.",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "value",
+        "description": "the value that will be returned as a boolean"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "defaultValue",
+        "description": "the value that will be returned if the value is undefined or null"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "getNumber",
+    "memberof": "src/primitive/primitive.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~getNumber",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{getNumber}",
+    "description": "Get a number from any input.",
+    "lineNumber": 31,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "value",
+        "description": "the value that will be returned as a number"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "0",
+        "defaultRaw": 0,
+        "name": "defaultValue",
+        "description": "the value that will be returned if the value is undefined or null"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "getObject",
+    "memberof": "src/primitive/primitive.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~getObject",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{getObject}",
+    "description": "Get an object from any input.\n\nIf the input value is not an object, an object will be created and the input value will be assigned to its value field.",
+    "lineNumber": 48,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "value",
+        "description": "the value that will be returned as an object"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "{}",
+        "defaultRaw": {},
+        "name": "defaultValue",
+        "description": "the value that will be returned if the value is undefined or null"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "getString",
+    "memberof": "src/primitive/primitive.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~getString",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{getString}",
+    "description": "Get a string from any input.",
+    "lineNumber": 63,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "value",
+        "description": "the value that will be returned as a string"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "''",
+        "defaultRaw": "''",
+        "name": "defaultValue",
+        "description": "the value that will be returned if the value is undefined or null"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "function",
+    "name": "getValueOrDefault",
+    "memberof": "src/primitive/primitive.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~getValueOrDefault",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{getValueOrDefault}",
+    "description": "A helper method to either return a given value or return a default value if the given value is undefined or null.",
+    "lineNumber": 88,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "value",
+        "description": "the value that will be returned"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "null",
+        "defaultRaw": null,
+        "name": "defaultValue",
+        "description": "the value that will be returned if the value is undefined or null"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "any"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "getValueOrNull",
+    "memberof": "src/primitive/primitive.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~getValueOrNull",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{getValueOrNull}",
+    "description": "A helper method to either return a given value or null if the given value is undefined or null.",
+    "lineNumber": 98,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "value",
+        "description": "the value that will be returned"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "any"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "function",
+    "name": "isFunction",
+    "memberof": "src/primitive/primitive.utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/primitive/primitive.utils.js~isFunction",
+    "access": "public",
+    "export": true,
+    "importPath": "@practicalwebdev/utils/src/primitive/primitive.utils.js",
+    "importStyle": "{isFunction}",
+    "description": "A helper method to determine if the input value is a function or not.",
+    "lineNumber": 108,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "any"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "value",
+        "description": "the value that may or may not be a function"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "file",
+    "name": "src/primitive/primitive.utils.spec.js",
+    "content": "import {\n  defaultArray,\n  defaultBoolean,\n  defaultNumber,\n  defaultObject,\n  defaultString,\n  getBoolean,\n  getNumber,\n  getObject,\n  getString,\n  getValueOrDefault,\n  getValueOrNull\n} from './primitive.utils';\n\ndescribe('primitive.utils', function () {\n\n  describe('getBoolean(value, defaultValue)', function () {\n    it('is a function', function () {\n      expect(typeof getBoolean).toEqual('function');\n    });\n\n    it('returns the defaultBoolean when the input is undefined', function () {\n      const expected = defaultBoolean;\n      const result = getBoolean();\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultBoolean when the input is null', function () {\n      const expected = defaultBoolean;\n      const result = getBoolean(null);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultValue when the input is undefined', function () {\n      const expected = !defaultBoolean;\n      const result = getBoolean(undefined, !defaultBoolean);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultValue when the input is null', function () {\n      const expected = !defaultBoolean;\n      const result = getBoolean(null, !defaultBoolean);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true', function () {\n      const expected = true;\n      const result = getBoolean(true);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false', function () {\n      const expected = false;\n      const result = getBoolean(false);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true when input is \"true\"', function () {\n      const expected = true;\n      const result = getBoolean(\"true\");\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when input is \"false\"', function () {\n      const expected = false;\n      const result = getBoolean(\"false\");\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true when input is 1', function () {\n      const expected = true;\n      const result = getBoolean(1);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when input is 0', function () {\n      const expected = false;\n      const result = getBoolean(0);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns true when input is a string \"a string\"', function () {\n      const expected = true;\n      const result = getBoolean('a string');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns false when input is \"\"', function () {\n      const expected = false;\n      const result = getBoolean('');\n      expect(result).toEqual(expected);\n    });\n  });\n\n  describe('getNumber(value, defaultValue)', function () {\n    it('is a function', function () {\n      expect(typeof getNumber).toEqual('function');\n    });\n\n    it('returns the defaultNumber when the input is undefined', function () {\n      const expected = defaultNumber;\n      const result = getNumber();\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultNumber when the input is null', function () {\n      const expected = defaultNumber;\n      const result = getNumber(null);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns null as the defaultValue', function () {\n      const result = getNumber(undefined, null);\n      expect(result).toBeNull();\n    });\n\n    it('returns the defaultValue when given a NaN string', function () {\n      const expected = 3;\n      const result = getNumber('abc', 3);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the given number', function () {\n      const expected = 3;\n      const result = getNumber(3);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns a number when the input is a number as a string', function () {\n      const expected = 3;\n      const result = getNumber('3');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultNumber when the input is a NaN string', function () {\n      const expected = defaultNumber;\n      const result = getNumber('abc');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns a float from a string', function () {\n      const expected = 1.2345;\n      const result = getNumber('1.2345');\n      expect(result).toEqual(expected);\n    });\n  });\n\n  describe('getObject(value, defaultValue)', function () {\n    it('is a function', function () {\n      expect(typeof getObject).toEqual('function');\n    });\n\n    it('returns the defaultObject when the input is undefined', function () {\n      const expected = defaultObject;\n      const result = getObject();\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultObject when the input is null', function () {\n      const expected = defaultObject;\n      const result = getObject(null);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns null as the defaultValue', function () {\n      const result = getObject(undefined, null);\n      expect(result).toBeNull();\n    });\n\n    it('returns the defaultValue', function () {\n      const expected = {test: 'test'};\n      const result = getObject(undefined, {test: 'test'});\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the given object', function () {\n      const expected = {test: 'test'};\n      const result = getObject({test: 'test'});\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an object with the input string as a value of the returned object', function () {\n      const expected = {value: 'test'};\n      const result = getObject('test');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an object with the input boolean as a value of the returned object', function () {\n      const expected = {value: true};\n      const result = getObject(true);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an object with the input number as a value of the returned object', function () {\n      const expected = {value: 5};\n      const result = getObject(5);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns an object with the input array as a value of the returned object', function () {\n      const expected = {value: ['test 1', 'test 2']};\n      const result = getObject(['test 1', 'test 2']);\n      expect(result).toEqual(expected);\n    });\n  });\n\n  describe('getString(value, defaultValue)', function () {\n    it('is a function', function () {\n      expect(typeof getString).toEqual('function');\n    });\n\n    it('returns the defaultString when the input is undefined', function () {\n      const expected = defaultString;\n      const result = getString();\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultString when the value null', function () {\n      const expected = defaultString;\n      const result = getString(null);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the input string', function () {\n      const expected = 'test';\n      const result = getString('test');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the custom defaultValue when the value is undefined', function () {\n      const expected = 'test';\n      const result = getString(undefined, 'test');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the custom defaultValue when the value is null', function () {\n      const expected = 'test';\n      const result = getString(null, 'test');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the null as the defaultValue', function () {\n      const result = getString(undefined, null);\n      expect(result).toBeNull();\n    });\n\n    it('returns the defaultValue when the input is an object', function () {\n      const expected = defaultString;\n      const result = getString({});\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultValue when the input is an array', function () {\n      const expected = defaultString;\n      const result = getString(['test 1', 'test 2']);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultValue when the input is a function', function () {\n      const expected = defaultString;\n      const result = getString(() => 'test 1');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the toString() result when the input specifies a custom toString function', function () {\n      const input = {\n        toString: () => 'custom toString result'\n      };\n      const result = getString(input);\n      expect(result).toEqual('custom toString result');\n    });\n\n    it('returns \"0\" when given 0', function () {\n      const expected = '0';\n      const result = getString(0);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the given number as a string', function () {\n      const expected = '11';\n      const result = getString(11);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns \"false\" when given false', function () {\n      const expected = 'false';\n      const result = getString(false);\n      expect(result).toEqual(expected);\n    });\n\n    it('returns \"true\" when given true', function () {\n      const expected = 'true';\n      const result = getString(true);\n      expect(result).toEqual(expected);\n    });\n  });\n\n  describe('getValueOrDefault(value, defaultValue)', function () {\n    it('is a function', function () {\n      expect(typeof getValueOrDefault).toEqual('function');\n    });\n\n    it('returns null when the input is undefined', function () {\n      const result = getValueOrDefault();\n      expect(result).toBeNull();\n    });\n\n    it('returns null when the input is null', function () {\n      const result = getValueOrDefault(null);\n      expect(result).toBeNull();\n    });\n\n    it('returns null when the input is null', function () {\n      const result = getValueOrDefault(null);\n      expect(result).toBeNull();\n    });\n\n    it('returns the value when the input is defined', function () {\n      const expected = 'test';\n      const result = getValueOrDefault('test');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultValue when the input is undefined and the default is set', function () {\n      const expected = 'test';\n      const result = getValueOrDefault(undefined, 'test');\n      expect(result).toEqual(expected);\n    });\n\n    it('returns the defaultValue when the input is null and the default is set', function () {\n      const expected = 'test';\n      const result = getValueOrDefault(null, 'test');\n      expect(result).toEqual(expected);\n    });\n  });\n\n  describe('getValueOrNull(value)', function () {\n    it('is a function', function () {\n      expect(typeof getValueOrNull).toEqual('function');\n    });\n\n    it('returns null when the input is undefined', function () {\n      const result = getValueOrNull();\n      expect(result).toBeNull();\n    });\n\n    it('returns null when the input is null', function () {\n      const result = getValueOrNull(null);\n      expect(result).toBeNull();\n    });\n\n    it('returns the value when the input is defined', function () {\n      const expected = 'test';\n      const result = getValueOrNull('test');\n      expect(result).toEqual(expected);\n    });\n  });\n\n});\n",
+    "static": true,
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/src/primitive/primitive.utils.spec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "# @practicalwebdev/utils\n\nThese are utility functions to help build a solid foundation of reliable data in JavaScript applications.\n\n## Installation\n\nTo install the package:\n\n    npm install @practicalwebdev/utils\n\nTo use a function, import it from the utils folder. For example,\n\n    import { getString } from '@practicalwebdev/utils';\n",
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@practicalwebdev/utils\",\n  \"version\": \"1.0.0\",\n  \"description\": \"JavaScript utilities for writing bullet-proof code.\",\n  \"author\": \"BJ Anderson\",\n  \"license\": \"MIT\",\n  \"main\": \"src/index.js\",\n  \"scripts\": {\n    \"doc\": \"esdoc\",\n    \"test\": \"jest\",\n    \"test:watch\": \"jest --clearCache && jest --coverage --watch\"\n  },\n  \"devDependencies\": {\n    \"babel-jest\": \"23.0.1\",\n    \"babel-preset-es2015\": \"6.24.1\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"jest\": \"23.1.0\",\n    \"jest-sonar-reporter\": \"2.0.0\"\n  }\n}\n",
+    "longname": "/home/bj/dev/projects/@practicalwebdev/utils/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

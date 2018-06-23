@@ -1,0 +1,53 @@
+{
+  "coverage": "58.06%",
+  "expectCount": 31,
+  "actualCount": 18,
+  "files": {
+    "src/array/array.utils.js": {
+      "expectCount": 6,
+      "actualCount": 6,
+      "undocumentLines": []
+    },
+    "src/array/array.utils.spec.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "src/date/date.utils.js": {
+      "expectCount": 3,
+      "actualCount": 3,
+      "undocumentLines": []
+    },
+    "src/model/model.utils.js": {
+      "expectCount": 2,
+      "actualCount": 2,
+      "undocumentLines": []
+    },
+    "src/model/model.utils.spec.js": {
+      "expectCount": 4,
+      "actualCount": 0,
+      "undocumentLines": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "src/primitive/primitive.utils.js": {
+      "expectCount": 12,
+      "actualCount": 7,
+      "undocumentLines": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  }
+}
