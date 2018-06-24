@@ -13,10 +13,6 @@
     "dist",
     "doc",
     "jest",
-    "node_modules",
-    ".editorconfig",
-    "jest.config.js",
-    "tsconfig.json",
-    "tslint"
+    "node_modules"
   ]
 }

@@ -1,0 +1,14 @@
+coverage/
+doc/
+jest/
+src/
+
+*.log
+.editorconfig
+.gitignore
+jest.config.js
+tsconfig.json
+tslint.json
+test-report.xml
+*.spec.js
+*.spec.d.ts
