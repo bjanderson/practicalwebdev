@@ -3,6 +3,10 @@ import { formatDate, getDate, isDate } from './date.utils';
 describe('date.utils', function() {
 
   describe('formatDate(date)', function() {
+    it('is a function', function() {
+      expect(typeof formatDate).toEqual('function');
+    });
+
     it('returns "Invalid Date" for an invalid date', function() {
       const date = '';
       const expected = 'Invalid Date';
@@ -16,9 +20,19 @@ describe('date.utils', function() {
       const result = formatDate(date);
       expect(result).toEqual(expected);
     });
+
+    it('returns "Invalid Date" if the date is invalid', function() {
+      const expected = 'Invalid Date';
+      const result: any = formatDate(NaN);
+      expect(result).toEqual(expected);
+    });
   });
 
   describe('getDate(date)', function() {
+    it('is a function', function() {
+      expect(typeof getDate).toEqual('function');
+    });
+
     it('returns a JavaScript Date if the input is a valid date', function() {
       const date = '1/2/2020';
       const expected = new Date(date).toString();
@@ -35,6 +49,10 @@ describe('date.utils', function() {
   });
 
   describe('isDate(date)', function() {
+    it('is a function', function() {
+      expect(typeof isDate).toEqual('function');
+    });
+
     it('returns true when the date is a correct mmddyyyy string', function() {
       const date = '1/2/2020';
       const expected = true;

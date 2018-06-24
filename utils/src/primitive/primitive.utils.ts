@@ -1,5 +1,3 @@
-import { isArray } from '../array';
-
 export const defaultArray = [];
 export const defaultBoolean = false;
 export const defaultNumber = 0;
@@ -53,7 +51,7 @@ export function getObject(value: any, defaultValue: any = defaultObject): any {
 export function getString(value: any, defaultValue: string | null = defaultString): string | null {
   let str = getValueOrDefault(value, defaultValue);
 
-  if (isArray(value) || isFunction(value)) {
+  if (Array.isArray(value) || isFunction(value)) {
     str = defaultValue;
   }
 

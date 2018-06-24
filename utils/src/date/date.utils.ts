@@ -3,13 +3,11 @@
  * Format the given date as toLocaleDateString.
  */
 export function formatDate(date: any): string {
-  let formattedDate = '';
+  let formattedDate = 'Invalid Date';
 
   try {
     formattedDate = new Date(date).toLocaleDateString();
-  } catch (err) {
-    console.error('ModelUtils.formatDate - Invalid date: ', date);
-  }
+  } catch (err) {}
 
   return formattedDate;
 }
@@ -31,14 +29,12 @@ export function getDate(date: any): Date | string {
  * Check if a value can be converted to a date.
  */
 export function isDate(date: any): boolean {
-  let isValid = true;
+  let isValid = false;
 
   try {
     const d = new Date(date);
     isValid = d.toString() !== 'Invalid Date';
-  } catch (err) {
-    console.error('ModelUtils.isDate - Invalid Date: ', date);
-    isValid = false;
-  }
+  } catch (err) {}
+
   return isValid;
 }

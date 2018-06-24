@@ -12,7 +12,7 @@ class TestModel {
 describe('model.utils', function() {
 
   describe('hasPropertyOf(clazz, obj)', function() {
-    it('has a function named hasPropertyOf', function() {
+    it('is a function', function() {
       expect(typeof hasPropertyOf).toEqual('function');
     });
 
@@ -53,7 +53,7 @@ describe('model.utils', function() {
   });
 
   describe('isInstanceOf(clazz, obj)', function() {
-    it('has a function named isInstanceOf', function() {
+    it('is a function', function() {
       expect(typeof isInstanceOf).toEqual('function');
     });
 
