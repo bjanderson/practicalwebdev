@@ -1,6 +1,11 @@
 import { hasPropertyOf } from '../model';
 import { getBoolean, getNumber, getString, getValueOrDefault } from '../primitive';
 
+/**
+ * Convert the input to an array.
+ *
+ * If the input is a single object, it will be added to an array and returned.
+ */
 export function getArray(objs: any): any[] {
   objs = getValueOrDefault(objs, []);
   let array = [];
@@ -14,6 +19,11 @@ export function getArray(objs: any): any[] {
   return array;
 }
 
+/**
+ * Convert the input to an array of booleans.
+ *
+ * If the input is a single object, it will be added to an array and returned.
+ */
 export function getArrayOfBooleans(objs: any): boolean[] {
   objs = getArray(objs);
   const array = [];
@@ -28,6 +38,11 @@ export function getArrayOfBooleans(objs: any): boolean[] {
   return array;
 }
 
+/**
+ * Convert the input to an array of instances of the given class.
+ *
+ * If the input is a single object, it will be added to an array and returned.
+ */
 export function getArrayOfModels(clazz: any, objs: any): any[] {
   objs = getArray(objs);
   const array = [];
@@ -41,6 +56,11 @@ export function getArrayOfModels(clazz: any, objs: any): any[] {
   return array;
 }
 
+/**
+ * Convert the input to an array of numbers.
+ *
+ * If the input is a single object, it will be added to an array and returned.
+ */
 export function getArrayOfNumbers(objs: any): number[] {
   objs = getArray(objs);
   const array = [];
@@ -55,6 +75,11 @@ export function getArrayOfNumbers(objs: any): number[] {
   return array;
 }
 
+/**
+ * Convert the input to an array of strings.
+ *
+ * If the input is a single object, it will be added to an array and returned.
+ */
 export function getArrayOfStrings(objs: any): string[] {
   objs = getArray(objs);
   const array = [];
@@ -69,6 +94,9 @@ export function getArrayOfStrings(objs: any): string[] {
   return array;
 }
 
+/**
+ * Check if a value is an array.
+ */
 export function isArray(obj: any): boolean {
   return Array.isArray(obj);
 }

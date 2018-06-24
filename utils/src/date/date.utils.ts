@@ -1,4 +1,7 @@
 
+/**
+ * Format the given date as toLocaleDateString.
+ */
 export function formatDate(date: any): string {
   let formattedDate = '';
 
@@ -11,6 +14,9 @@ export function formatDate(date: any): string {
   return formattedDate;
 }
 
+/**
+ * Get a date from the given input, or else get an empty string.
+ */
 export function getDate(date: any): Date | string {
   let theDate: Date | string = '';
 
@@ -21,6 +27,9 @@ export function getDate(date: any): Date | string {
   return theDate;
 }
 
+/**
+ * Check if a value can be converted to a date.
+ */
 export function isDate(date: any): boolean {
   let isValid = true;
 

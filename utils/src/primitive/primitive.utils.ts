@@ -6,6 +6,11 @@ export const defaultNumber = 0;
 export const defaultObject = {};
 export const defaultString = '';
 
+/**
+ * Get a boolean from any given input.
+ *
+ * Optionally, choose the default value if the input value is undefined or null.
+ */
 export function getBoolean(value: any, defaultValue: boolean = defaultBoolean): boolean {
   if (value === 'false') {
     value = false;
@@ -14,6 +19,11 @@ export function getBoolean(value: any, defaultValue: boolean = defaultBoolean): 
   return value;
 }
 
+/**
+ * Get a number from any given input.
+ *
+ * Optionally, choose the default value if the input value is undefined or null.
+ */
 export function getNumber(value: any, defaultValue: number | null = defaultNumber): number | null {
   let num = value == null ? defaultValue : Number(value).valueOf();
   if (num == null || isNaN(num)) {
@@ -22,6 +32,11 @@ export function getNumber(value: any, defaultValue: number | null = defaultNumbe
   return num;
 }
 
+/**
+ * Get an object from any given input.
+ *
+ * Optionally, choose the default value if the input value is undefined or null.
+ */
 export function getObject(value: any, defaultValue: any = defaultObject): any {
   value = getValueOrDefault(value, defaultValue);
   if (value != null && value.toString() !== '[object Object]') {
@@ -30,6 +45,11 @@ export function getObject(value: any, defaultValue: any = defaultObject): any {
   return value;
 }
 
+/**
+ * Get a string from any given input.
+ *
+ * Optionally, choose the default value if the input value is undefined or null.
+ */
 export function getString(value: any, defaultValue: string | null = defaultString): string | null {
   let str = getValueOrDefault(value, defaultValue);
 
@@ -48,14 +68,25 @@ export function getString(value: any, defaultValue: string | null = defaultStrin
   return str;
 }
 
+/**
+ * Get a value if it is defined, or else get the default value.
+ *
+ * Optionally, choose the default value if the input value is undefined or null.
+ */
 export function getValueOrDefault(value: any, defaultValue: any = null): any {
   return value == null ? defaultValue : value;
 }
 
+/**
+ * Get a value if it is defined, or else get null.
+ */
 export function getValueOrNull(value: any): any {
   return getValueOrDefault(value, null);
 }
 
+/**
+ * Check if a value is a function.
+ */
 export function isFunction(value: any): boolean {
   return typeof value === 'function';
 }

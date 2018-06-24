@@ -9,7 +9,9 @@
     "esModuleInterop": true
   },
   "exclude": [
+    "coverage",
     "dist",
+    "doc",
     "jest",
     "node_modules"
   ]
