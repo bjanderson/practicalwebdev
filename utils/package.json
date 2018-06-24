@@ -17,7 +17,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
-    "doc": "typedoc --out ./doc/ src/**/*.ts",
+    "doc": "typedoc --out ../docs/utils src/**/*.ts",
     "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
     "prepush": "npm run build",
     "push": "npm publish --access public",
