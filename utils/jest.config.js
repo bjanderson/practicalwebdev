@@ -1,6 +1,6 @@
 module.exports = {
   collectCoverageFrom: [
-    'src/**/*.{js}'
+    'src/**/*.{ts}'
   ],
 
   coverageDirectory: 'coverage',
@@ -14,20 +14,25 @@ module.exports = {
   moduleFileExtensions: [
     'ts',
     'js',
-    'json'
+    'json',
+    'node'
   ],
 
-  setupTestFrameworkScriptFile: '<rootDir>/jest/setupJest.js',
+  setupTestFrameworkScriptFile: '<rootDir>/jest/setupJest.ts',
 
   testPathIgnorePatterns: [
-    'coverage/',
-    'dist/',
-    'jest/',
-    'node_modules/',
-    'scripts/'
+    '/coverage/',
+    '/dist/',
+    '/jest/',
+    '/node_modules/',
+    '/scripts/'
   ],
 
-  testRegex: "(\.)(spec)(\.)(js)$",
+  testRegex: "(\.)(spec)(\.)(ts)$",
 
-  testResultsProcessor: 'jest-sonar-reporter'
+  testResultsProcessor: 'jest-sonar-reporter',
+
+  transform: {
+    "^.+\\.ts?$": "ts-jest",
+  }
 };
