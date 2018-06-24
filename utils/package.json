@@ -1,6 +1,6 @@
 {
   "name": "@practicalwebdev/utils",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "description": "JavaScript utilities for writing reliable code.",
   "author": "BJ Anderson",
   "license": "MIT",
@@ -17,14 +17,14 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",
+    "doc": "typedoc --out ./doc/ src/**/*.ts",
+    "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
     "prepush": "npm run build",
-    "push": "npm publish",
+    "push": "npm publish --access public",
     "push:major": "npm version major && npm run push",
     "push:minor": "npm version minor && npm run push",
     "push:patch": "npm version patch && npm run push",
-    "doc": "typedoc --out ./doc/ src/**/*.ts",
-    "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
-    "test": "jest",
+    "test": "jest --coverage",
     "test:watch": "jest --clearCache && jest --coverage --watch"
   },
   "devDependencies": {

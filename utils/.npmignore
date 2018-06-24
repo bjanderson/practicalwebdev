@@ -1,7 +1,8 @@
-coverage/
-doc/
-jest/
-src/
+/coverage
+/doc
+/jest
+/package
+/src
 
 *.log
 .editorconfig
@@ -12,3 +13,4 @@ tslint.json
 test-report.xml
 *.spec.js
 *.spec.d.ts
+*.tgz
