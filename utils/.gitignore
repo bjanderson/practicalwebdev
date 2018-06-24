@@ -3,6 +3,7 @@
 # compiled output
 /coverage
 /dist
+/doc
 /out-tsc
 /package
 /tmp
