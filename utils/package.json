@@ -1,7 +1,7 @@
 {
   "name": "@practicalwebdev/utils",
   "version": "1.0.0",
-  "description": "JavaScript utilities for writing reliable code.",
+  "description": "JavaScript utilities for writing code the @practicalwebdev way.",
   "author": "BJ Anderson",
   "license": "MIT",
   "repository": {
@@ -13,7 +13,7 @@
   },
   "homepage": "https://practicalwebdev.com",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc",

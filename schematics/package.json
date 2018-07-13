@@ -1,0 +1,47 @@
+{
+  "name": "@practicalwebdev/schematics",
+  "version": "0.0.1",
+  "description": "Angular schematics for doing things the @practicalwebdev way.",
+  "author": "BJ Anderson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjanderson/practicalwebdev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bjanderson/practicalwebdev/issues"
+  },
+  "homepage": "https://practicalwebdev.com",
+  "schematics": "./dist/collection.json",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "schematics"
+  ],
+  "scripts": {
+    "prebuild": "npm test && rimraf dist/",
+    "build": "tsc -p tsconfig.json",
+    "postbuild": "copy 'src/**/*.json' 'src/**/files/*' 'dist/'",
+    "prebuild:test": "rimraf test/",
+    "build:test": "tsc -p tsconfig.spec.json",
+    "postbuild:test": "copy 'src/**/*.json' 'src/**/files/*' 'test/'",
+    "prepack": "npm run build",
+    "test": "npm run build:test && jasmine test/**/*_spec.js"
+  },
+  "peerDependencies": {
+    "@angular-devkit/core": "0.6.8",
+    "@angular-devkit/schematics": "0.6.8"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.8.8",
+    "@types/node": "10.5.2",
+    "copy": "0.3.2",
+    "jasmine": "3.1.0",
+    "rimraf": "2.6.2",
+    "typescript": "2.9.2"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ]
+}
