@@ -1,28 +1,19 @@
-# Getting Started With Schematics
+# Install
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+    npm i @practicalwebdev/schematics
 
-### Testing
+# Usage
 
-To test locally, install `@angular-devkit/schematics` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
+    ng generate @practicalwebdev/schematics:model --name <model-name>
 
-Check the documentation with
-```bash
-schematics --help
-```
+# Schematics
 
-### Unit Testing
+## component
 
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
+## model
 
-### Publishing
+Generate a model with unit tests and automatically add it to the exports from src/app/models/index.ts
 
-To publish, simply do:
+## service
 
-```bash
-npm run build
-npm publish
-```
-
-That's it!
- 
+## store

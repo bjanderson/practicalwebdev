@@ -12,6 +12,8 @@ import {
 
 import { classify, dasherize } from '@angular-devkit/core/src/utils/strings';
 
+import { config } from '../utils';
+
 const stringUtils = {
   classify,
   dasherize
@@ -42,17 +44,32 @@ function addToModelsIndex(modelsIndex: string, name: string): string {
 }
 
 function exportFromModelsIndex(tree: Tree, options: any) {
-  const idx = tree.read('src/app/models/index.ts');
+  const modelsIndex = `${config.modelsDir}/index.ts`;
+  const idx = tree.read(modelsIndex);
 
   if (idx == null) {
-    tree.create('src/app/models/index.ts', `export * from './${dasherize(options.name)}';\n`);
+    tree.create(modelsIndex, `export * from './${dasherize(options.name)}';\n`);
   } else {
     const contents = addToModelsIndex(idx.toString(), dasherize(options.name));
-    tree.overwrite('src/app/models/index.ts', contents);
+    tree.overwrite(modelsIndex, contents);
   }
 }
 
 export function model(options: any): Rule {
+  try {
+    const re = /-?model$/i;
+    const name = options.name.replace(re, '').trim();
+
+    if (name === '') {
+      throw new Error(`Invalid model name: ${options.name}. Name it something other than "Model"`);
+    } else {
+      options.name = name;
+    }
+
+  } catch (err) {
+    throw new Error(`Invalid model name: ${options.name}`);
+  }
+
   return chain([
 
     (tree: Tree) => {
@@ -67,7 +84,7 @@ export function model(options: any): Rule {
             ...stringUtils,
             ...options
           }),
-          move(`src/app/models/${dasherize(options.name)}`)
+          move(`${config.modelsDir}/${dasherize(options.name)}`)
         ]
       )),
   ]);

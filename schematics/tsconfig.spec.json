@@ -6,6 +6,7 @@
   },
 
   "exclude": [
-    "src/*/files/**/*"
+    "src/*/files/**/*",
+    "src/*/optionalFiles/**/*"
   ]
 }

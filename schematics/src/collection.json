@@ -1,10 +1,29 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
+
+    "component": {
+      "description": "Create a new component.",
+      "factory": "./component/index#component",
+      "schema": "./component/schema.json"
+    },
+
     "model": {
       "description": "Create a new model.",
       "factory": "./model/index#model",
       "schema": "./model/schema.json"
+    },
+
+    "service": {
+      "description": "Create a new service.",
+      "factory": "./service/index#service",
+      "schema": "./service/schema.json"
+    },
+
+    "store": {
+      "description": "Create a new store.",
+      "factory": "./store/index#store",
+      "schema": "./component/schema.json"
     }
   }
 }

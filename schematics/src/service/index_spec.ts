@@ -7,16 +7,16 @@ import { config } from '../utils';
 
 const collectionPath = path.join(__dirname, '../collection.json');
 
-describe('model', () => {
-  it('generates the expected model files', () => {
+describe('service', () => {
+  it('generates the expected service files', () => {
     const runner = new SchematicTestRunner('schematics', collectionPath);
-    const tree = runner.runSchematic('model', {name: 'test-model'}, Tree.empty());
+    const tree = runner.runSchematic('service', {name: 'test-service'}, Tree.empty());
 
     expect(tree.files).toEqual([
-      `/${config.modelsDir}/index.ts`,
-      `/${config.modelsDir}/test/index.ts`,
-      `/${config.modelsDir}/test/test.model.spec.ts`,
-      `/${config.modelsDir}/test/test.model.ts`
+      // `/${config.servicesDir}/index.ts`,
+      `/${config.servicesDir}/test/index.ts`,
+      `/${config.servicesDir}/test/test.service.spec.ts`,
+      `/${config.servicesDir}/test/test.service.ts`
     ]);
   });
 });

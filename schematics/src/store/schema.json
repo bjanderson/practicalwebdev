@@ -1,13 +1,13 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "id": "ModelSchema",
-  "title": "Model Schema",
+  "id": "StoreSchema",
+  "title": "Store Schema",
   "type": "object",
   "properties": {
     "name": {
       "alias": "n",
       "type": "string",
-      "description": "The name of your model"
+      "description": "The name of your store"
     }
   },
   "required": [

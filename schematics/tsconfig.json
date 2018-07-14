@@ -33,6 +33,7 @@
 
   "exclude": [
     "src/*/files/**/*",
+    "src/*/optionalFiles/**/*",
     "**/*_spec.ts"
   ]
 }

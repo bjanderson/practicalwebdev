@@ -1,6 +1,6 @@
 {
   "name": "@practicalwebdev/schematics",
-  "version": "0.0.1",
+  "version": "0.0.10",
   "description": "Angular schematics for doing things the @practicalwebdev way.",
   "author": "BJ Anderson",
   "license": "MIT",
@@ -18,14 +18,16 @@
     "schematics"
   ],
   "scripts": {
-    "prebuild": "npm test && rimraf dist/",
+    "prebuild": "rimraf dist/",
     "build": "tsc -p tsconfig.json",
-    "postbuild": "copy 'src/**/*.json' 'src/**/files/*' 'dist/'",
+    "postbuild": "copy 'src/**/*.json' 'src/**/files/*' 'src/**/optionalFiles/*' 'dist/'",
     "prebuild:test": "rimraf test/",
     "build:test": "tsc -p tsconfig.spec.json",
-    "postbuild:test": "copy 'src/**/*.json' 'src/**/files/*' 'test/'",
+    "postbuild:test": "copy 'src/**/*.json' 'src/**/files/*' 'src/**/optionalFiles/*' 'test/'",
     "prepack": "npm run build",
-    "test": "npm run build:test && jasmine test/**/*_spec.js"
+    "test": "npm run build:test && jasmine test/**/*_spec.js",
+    "prepush": "npm run build && npm version patch --no-git-tag-version",
+    "push": "npm publish --registry http://localhost:4873/ "
   },
   "peerDependencies": {
     "@angular-devkit/core": "0.6.8",
@@ -43,5 +45,8 @@
     "dist/",
     "package.json",
     "README.md"
-  ]
+  ],
+  "dependencies": {
+    "@angular/cli": "6.0.8"
+  }
 }
