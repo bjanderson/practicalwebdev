@@ -29,9 +29,9 @@ describe('<%= classify(name) %>StoreService', function () {
     });
 
     it('calls store.select()', function () {
-      spyOn(store, 'select').and.returnValue(null);
+      const spy = spyOn(store, 'select').and.returnValue(null);
       service.get<%= classify(name) %>s();
-      expect(store.select).toHaveBeenCalledWith(service.<%= camelize(name) %>sSelector);
+      expect(spy).toHaveBeenCalledWith(service.<%= camelize(name) %>sSelector);
     });
   });
 
@@ -45,9 +45,9 @@ describe('<%= classify(name) %>StoreService', function () {
     });
 
     it('calls dispatchAction()', function () {
-      spyOn(service, 'dispatchAction').and.returnValue(null);
+      const spy = spyOn(service, 'dispatchAction').and.returnValue(null);
       service.dispatchLoadAction();
-      expect(service.dispatchAction).toHaveBeenCalledWith(new LoadAction());
+      expect(spy).toHaveBeenCalledWith(new LoadAction());
     });
   });
 });

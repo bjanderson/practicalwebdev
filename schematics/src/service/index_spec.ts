@@ -13,7 +13,7 @@ describe('service', () => {
     const tree = runner.runSchematic('service', {name: 'test-service'}, Tree.empty());
 
     expect(tree.files).toEqual([
-      // `/${config.servicesDir}/index.ts`,
+      `/${config.servicesDir}/index.ts`,
       `/${config.servicesDir}/test/index.ts`,
       `/${config.servicesDir}/test/test.service.spec.ts`,
       `/${config.servicesDir}/test/test.service.ts`

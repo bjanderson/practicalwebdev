@@ -1,5 +1,6 @@
 import {
   Rule,
+  Tree,
 
   apply,
   chain,
@@ -11,7 +12,7 @@ import {
 
 import { classify, dasherize } from '@angular-devkit/core/src/utils/strings';
 
-import { config } from '../utils';
+import { config, exportFromFile } from '../utils';
 
 const stringUtils = {
   classify,
@@ -34,6 +35,11 @@ export function service(options: any): Rule {
   }
 
   return chain([
+
+    (tree: Tree) => {
+      const filePath = `${config.servicesDir}/index.ts`;
+      exportFromFile(filePath, tree, options);
+    },
 
     mergeWith(
       apply(

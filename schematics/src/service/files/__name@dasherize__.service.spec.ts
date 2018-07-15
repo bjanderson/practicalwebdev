@@ -31,9 +31,9 @@ describe('<%= classify(name) %>Service', function () {
     });
 
     it('calls api.get()', function () {
-      spyOn(api, 'get').and.callThrough();
+      const spy = spyOn(api, 'get').and.callThrough();
       service.get();
-      expect(api.get).toHaveBeenCalled();
+      expect(spy).toHaveBeenCalled();
     });
   });
 });
