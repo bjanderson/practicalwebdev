@@ -23,7 +23,7 @@ Generates the following files
 
 If `module` or `route` are set, it also generates a module file at:
 
-`src/app/components/&lt;component-name&gt;/&lt;component-name&gt;.module.ts`
+`src/app/components/<component-name>/<component-name>.module.ts`
 
 ### Parameters
 

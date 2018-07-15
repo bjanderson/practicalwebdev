@@ -1,6 +1,6 @@
 {
   "name": "@practicalwebdev/utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JavaScript utilities for writing code the @practicalwebdev way.",
   "author": "BJ Anderson",
   "license": "MIT",
@@ -21,9 +21,11 @@
     "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
     "prepush": "npm run build",
     "push": "npm publish --access public",
-    "push:major": "npm version major && npm run push",
-    "push:minor": "npm version minor && npm run push",
-    "push:patch": "npm version patch && npm run push",
+    "push:major": "npm version major --no-git-tag-version && npm run push",
+    "push:minor": "npm version minor --no-git-tag-version && npm run push",
+    "push:patch": "npm version patch --no-git-tag-version && npm run push",
+    "prevpush": "npm run build && npm version patch --no-git-tag-version",
+    "vpush": "npm publish --registry http://localhost:4873/ ",
     "test": "jest --coverage",
     "test:watch": "jest --clearCache && jest --coverage --watch"
   },
@@ -36,5 +38,11 @@
     "tslint": "5.10.0",
     "typedoc": "0.11.1",
     "typescript": "2.9.2"
-  }
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
 }

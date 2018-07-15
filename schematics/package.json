@@ -1,6 +1,6 @@
 {
   "name": "@practicalwebdev/schematics",
-  "version": "0.0.30",
+  "version": "1.0.1",
   "description": "Angular schematics for doing things the @practicalwebdev way.",
   "author": "BJ Anderson",
   "license": "MIT",
@@ -26,14 +26,17 @@
     "postbuild:test": "copy 'src/**/*.json' 'src/**/files/*' 'src/**/optionalFiles/*' 'test/'",
     "prepack": "npm run build",
     "test": "npm run build:test && jasmine test/**/*_spec.js",
-    "prepush": "npm run build && npm version patch --no-git-tag-version",
-    "push": "npm publish --registry http://localhost:4873/ "
-  },
-  "peerDependencies": {
-    "@angular-devkit/core": "0.6.8",
-    "@angular-devkit/schematics": "0.6.8"
+    "prevpush": "npm run build && npm version patch --no-git-tag-version",
+    "vpush": "npm publish --registry http://localhost:4873/ ",
+    "prepush": "npm run build",
+    "push": "npm publish --access public",
+    "push:major": "npm version major --no-git-tag-version && npm run push",
+    "push:minor": "npm version minor --no-git-tag-version && npm run push",
+    "push:patch": "npm version patch --no-git-tag-version && npm run push"
   },
   "devDependencies": {
+    "@angular-devkit/core": "0.6.8",
+    "@angular-devkit/schematics": "0.6.8",
     "@types/jasmine": "2.8.8",
     "@types/node": "10.5.2",
     "copy": "0.3.2",
@@ -46,8 +49,5 @@
     "package.json",
     "README.md",
     "LICENSE"
-  ],
-  "dependencies": {
-    "@angular/cli": "6.0.8"
-  }
+  ]
 }

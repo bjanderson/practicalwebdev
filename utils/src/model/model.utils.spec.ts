@@ -1,4 +1,4 @@
-import { hasPropertyOf, isInstanceOf } from './model.utils';
+import { hasPropertyOf, isInstanceOf, newIfDefined } from './model.utils';
 
 class TestModel {
   test: string;
@@ -90,6 +90,22 @@ describe('model.utils', function() {
       const expected = true;
       const result = isInstanceOf(TestModel, obj);
       expect(result).toEqual(expected);
+    });
+  });
+
+  describe('newIfDefined(clazz: any, obj: any)', function() {
+    it('is a function', function() {
+      expect(typeof newIfDefined).toEqual('function');
+    });
+
+    it('returns null when the input obj is undefined', function() {
+      const result: any = newIfDefined(TestModel, undefined);
+      expect(result).toBeNull();
+    });
+
+    it('returns a new instance of the given class when the input obj is defined', function() {
+      const result: any = newIfDefined(TestModel, {});
+      expect(result instanceof TestModel).toEqual(true);
     });
   });
 });
