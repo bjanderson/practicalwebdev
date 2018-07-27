@@ -3,12 +3,12 @@ import { createFeatureSelector, createSelector, Store } from '@ngrx/store';
 
 import { <%= classify(name) %>StoreState } from '../../models';
 
-import { AppStoreService } from '../app';
+import { StoreService } from '../store';
 
 import { LoadAction } from './<%= dasherize(name) %>.store.actions';
 
 @Injectable()
-export class <%= classify(name) %>StoreService extends AppStoreService {
+export class <%= classify(name) %>StoreService extends StoreService {
   <%= camelize(name) %>s = createFeatureSelector<<%= classify(name) %>StoreState>('<%= camelize(name) %>s');
   <%= camelize(name) %>sSelector = createSelector(this.<%= camelize(name) %>s, this.getProperty('<%= camelize(name) %>s'));
 

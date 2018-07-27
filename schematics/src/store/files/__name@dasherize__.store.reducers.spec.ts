@@ -11,11 +11,13 @@ describe('<%= camelize(name) %>Reducer', function () {
     expect(result).toEqual(expected);
   });
 
-  it('returns the state with the payload added', function () {
-    const value = '<%= camelize(name) %>';
-    const state = new <%= classify(name) %>StoreState();
-    const expected: any = new <%= classify(name) %>StoreState({value});
-    const result: any = <%= camelize(name) %>Reducer(state, new LoadSuccessAction(value));
-    expect(result).toEqual(expected);
+  describe('LOAD_SUCCESS', function () {
+    it('returns the state with the payload added', function () {
+      const value = '<%= camelize(name) %>';
+      const state = new <%= classify(name) %>StoreState();
+      const expected: any = new <%= classify(name) %>StoreState({value});
+      const result: any = <%= camelize(name) %>Reducer(state, new LoadSuccessAction(value));
+      expect(result).toEqual(expected);
+    });
   });
 });
