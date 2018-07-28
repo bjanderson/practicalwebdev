@@ -8,6 +8,12 @@
       "schema": "./component/schema.json"
     },
 
+    "dialog": {
+      "description": "Create a new dialog.",
+      "factory": "./dialog/index#dialog",
+      "schema": "./dialog/schema.json"
+    },
+
     "model": {
       "description": "Create a new model.",
       "factory": "./model/index#model",

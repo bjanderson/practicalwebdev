@@ -3,7 +3,6 @@ import {
 
   apply,
   chain,
-  filter,
   mergeWith,
   move,
   template,
@@ -21,16 +20,22 @@ const stringUtils = {
   dasherize
 };
 
-export function component(options: any): Rule {
+export function dialog(options: any): Rule {
 
   try {
-    const re = /-?component$/i;
-    const name = options.name.replace(re, '').trim();
+    const componentRE = /-?component$/i;
+    let name = options.name.replace(componentRE, '').trim();
+
+    const dialogRE = /-?dialog$/i;
+    name = options.name.replace(dialogRE, '').trim();
 
     if (name === '') {
       throw new Error(`Invalid component name: ${options.name}. Name it something other than "Component"`);
     } else {
       options.name = name;
+      options.dialogName = name + '-dialog';
+      options.dialogBodyName = options.dialogName + '-body';
+      options.dialogDataName = options.dialogName + '-data';
     }
 
   } catch (err) {
@@ -38,20 +43,6 @@ export function component(options: any): Rule {
   }
 
   return chain([
-
-    mergeWith(
-      apply(
-        url('./optionalFiles'),
-        [
-          filter(() => options.module || options.route),
-          template({
-            ...stringUtils,
-            ...options
-          }),
-          move(`${config.componentsDir}/${dasherize(options.name)}`)
-        ]
-      )),
-
     mergeWith(
       apply(
         url('./files'),
@@ -60,7 +51,7 @@ export function component(options: any): Rule {
             ...stringUtils,
             ...options
           }),
-          move(`${config.componentsDir}/${dasherize(options.name)}`)
+          move(`${config.componentsDir}/${dasherize(options.dialogName)}`)
         ]
       )),
   ]);
