@@ -1,4 +1,6 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Inject } from '@angular/core';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
+import { <%= classify(dialogDataName) %> } from './<%= dasherize(dialogDataName) %>.model';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -7,5 +9,16 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   templateUrl: './<%= dasherize(dialogBodyName) %>.component.html'
 })
 export class <%= classify(dialogBodyName) %>Component {
-  constructor() {}
+  constructor(
+    private dialogRef: MatDialogRef<<%= classify(dialogBodyName) %>Component>,
+    @Inject(MAT_DIALOG_DATA) private data: <%= classify(dialogDataName) %>
+  ) {}
+
+  confirm() {
+    this.dialogRef.close(true);
+  }
+
+  deny() {
+    this.dialogRef.close(false);
+  }
 }

@@ -1,4 +1,4 @@
-import { <%= classify(dialogBodyName) %>Component } from './<%= dasherize(dialogBodyName) %>.component';
+import { TestDialogBodyComponent } from './test-dialog-body.component';
 
 const dialogRef: any = {
   close: () => undefined
@@ -7,10 +7,10 @@ const data: any = {};
 
 let component;
 function init() {
-  component = new <%= classify(dialogBodyName) %>Component(dialogRef, data);
+  component = new TestDialogBodyComponent(dialogRef, data);
 }
 
-describe('<%= classify(dialogBodyName) %>Component', function () {
+describe('TestDialogBodyComponent', function () {
   describe('constructor()', function () {
     beforeEach(function () {
       init();

@@ -1,14 +1,14 @@
 import { LoadAction } from './<%= dasherize(name) %>.store.actions';
 import { <%= classify(name) %>StoreService } from './<%= dasherize(name) %>.store.service';
 
+const store: any = {select: () => undefined};
+
+let service: any;
+function init() {
+  service = new <%= classify(name) %>StoreService(store);
+}
+
 describe('<%= classify(name) %>StoreService', function () {
-  let service: <%= classify(name) %>StoreService;
-  const store: any = {select: () => undefined};
-
-  function init() {
-    service = new <%= classify(name) %>StoreService(store);
-  }
-
   describe('constructor', function () {
     beforeEach(() => {
       init();

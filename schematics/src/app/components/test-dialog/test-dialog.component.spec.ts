@@ -1,5 +1,5 @@
 import { EMPTY } from 'rxjs';
-import { <%= classify(dialogName) %>Component } from './<%= dasherize(dialogName) %>.component';
+import { TestDialogComponent } from './test-dialog.component';
 
 const dialog: any = {
   open: () => {
@@ -9,10 +9,10 @@ const dialog: any = {
 
 let component: any;
 function init() {
-  component = new <%= classify(dialogName) %>Component(dialog);
+  component = new TestDialogComponent(dialog);
 }
 
-describe('<%= classify(dialogName) %>Component', function () {
+describe('TestDialogComponent', function () {
   describe('constructor()', function () {
     beforeEach(function () {
       init();

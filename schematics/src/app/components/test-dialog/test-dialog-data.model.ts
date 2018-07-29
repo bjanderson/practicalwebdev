@@ -1,6 +1,6 @@
 import { getObject, getString, getBoolean } from '@practicalwebdev/utils';
 
-export class <%= classify(dialogDataName) %> {
+export class TestDialogData {
 
   okButtonText: string;
   cancelButtonText: string;
@@ -9,7 +9,7 @@ export class <%= classify(dialogDataName) %> {
   showCancelButton: boolean;
   title: string;
 
-  constructor(obj?: Partial<<%= classify(dialogDataName) %>>) {
+  constructor(obj?: Partial<TestDialogData>) {
     obj = getObject(obj);
     this.okButtonText = getString(obj.okButtonText, 'OK');
     this.cancelButtonText = getString(obj.cancelButtonText, 'Cancel');

@@ -1,12 +1,12 @@
 import { <%= classify(name) %>Component } from './<%= dasherize(name) %>.component';
 
+let component: any;
+
+function init() {
+  component = new <%= classify(name) %>Component();
+}
+
 describe('<%= classify(name) %>Component', function () {
-  let component;
-
-  function init() {
-    component = new <%= classify(name) %>Component();
-  }
-
   describe('constructor()', function () {
     beforeEach(function () {
       init();

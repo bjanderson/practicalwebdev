@@ -2,17 +2,17 @@ import { ChangeDetectionStrategy, EventEmitter, Component, Output, Input } from 
 import { MatDialog, MatDialogConfig } from '@angular/material';
 import { take } from 'rxjs/operators';
 
-import { <%= classify(dialogBodyName) %>Component } from './<%= dasherize(dialogBodyName) %>.component';
-import { <%= classify(dialogDataName) %> } from './<%= dasherize(dialogDataName) %>.model';
+import { TestDialogBodyComponent } from './test-dialog-body.component';
+import { TestDialogData } from './test-dialog-data.model';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
-  selector: '<%= dasherize(prefix) %>-<%= dasherize(dialogName) %>',
+  selector: 'app-test-dialog',
   template: ''
 })
-export class <%= classify(dialogName) %>Component {
+export class TestDialogComponent {
   @Input() config = new MatDialogConfig();
-  @Input() data = new <%= classify(dialogDataName) %>();
+  @Input() data = new TestDialogData();
 
   @Output() confirmed = new EventEmitter();
 
@@ -20,7 +20,7 @@ export class <%= classify(dialogName) %>Component {
 
   open(): void {
     this.config.data = this.data;
-    const dialogRef = this.dialog.open(<%= classify(dialogBodyName) %>Component, this.config);
+    const dialogRef = this.dialog.open(TestDialogBodyComponent, this.config);
 
     dialogRef.afterClosed()
       .pipe(take(1))

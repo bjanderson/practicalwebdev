@@ -36,6 +36,7 @@ export function dialog(options: any): Rule {
       options.dialogName = name + '-dialog';
       options.dialogBodyName = options.dialogName + '-body';
       options.dialogDataName = options.dialogName + '-data';
+      console.log('options: ', options)
     }
 
   } catch (err) {

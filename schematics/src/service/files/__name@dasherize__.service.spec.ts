@@ -1,16 +1,16 @@
 import { EMPTY } from 'rxjs';
 import { <%= classify(name) %>Service } from './<%= dasherize(name) %>.service';
 
+const api: any = {
+  get: () => EMPTY
+};
+
+let service: any;
+function init() {
+  service = new <%= classify(name) %>Service(api);
+}
+
 describe('<%= classify(name) %>Service', function () {
-  let service: <%= classify(name) %>Service;
-  const api: any = {
-    get: () => EMPTY
-  };
-
-  function init() {
-    service = new <%= classify(name) %>Service(api);
-  }
-
   describe('constructor', function () {
     beforeEach(() => {
       init();

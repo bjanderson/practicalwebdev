@@ -7,17 +7,17 @@ import {
 } from './<%= dasherize(name) %>.store.actions';
 import { <%= classify(name) %>Effects } from './<%= dasherize(name) %>.store.effects';
 
+const actions$: any = EMPTY;
+const <%= camelize(name) %>Service: any = {
+  get: () => EMPTY
+};
+
+let effects: any;
+function init() {
+  effects = new <%= classify(name) %>Effects(actions$, <%= camelize(name) %>Service);
+}
+
 describe('<%= classify(name) %>Effects', function () {
-  let effects: any;
-  const actions$: any = EMPTY;
-  const <%= camelize(name) %>Service: any = {
-    get: () => EMPTY
-  };
-
-  function init() {
-    effects = new <%= classify(name) %>Effects(actions$, <%= camelize(name) %>Service);
-  }
-
   describe('constructor', function () {
     beforeEach(() => {
       init();
