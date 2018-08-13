@@ -10,7 +10,7 @@ import { LoadAction } from './<%= dasherize(name) %>.store.actions';
 @Injectable()
 export class <%= classify(name) %>StoreService extends StoreService {
   <%= camelize(name) %>s = createFeatureSelector<<%= classify(name) %>StoreState>('<%= camelize(name) %>s');
-  <%= camelize(name) %>sSelector = createSelector(this.<%= camelize(name) %>s, this.getProperty('<%= camelize(name) %>s'));
+  <%= camelize(name) %>sSelector = createSelector(this.<%= camelize(name) %>s, state => state.<%= camelize(name) %>s);
 
   constructor(public store: Store<<%= classify(name) %>StoreState>) { super(); }
 
