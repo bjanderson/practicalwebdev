@@ -11,8 +11,12 @@ export interface State {
   router: RouterReducerState<RouterStateUrl>;
 }
 
-// The ngrx router overloads the redux-devtools plugin, making it useless.
-// Here we trim down what the router serializer returns so that devtools will work.
+/**
+ * The ngrx router overloads the redux-devtools chrome plugin, making it useless.
+ * Here we trim down what the router serializer returns so that devtools will work.
+ *
+ * See: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+ */
 export class DevtoolsRouterStateSerializer implements RouterStateSerializer<RouterStateUrl> {
   serialize(routerState: RouterStateSnapshot): RouterStateUrl {
     let route = routerState.root;
