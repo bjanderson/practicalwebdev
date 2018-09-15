@@ -1,4 +1,4 @@
-export const defaultArray = [];
+export const defaultArray: any[] = [];
 export const defaultBoolean = false;
 export const defaultNumber = 0;
 export const defaultObject = {};

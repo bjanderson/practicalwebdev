@@ -30,6 +30,7 @@
       true,
       "spaces"
     ],
+    "interface-name": false,
     "interface-over-type-literal": true,
     "label-position": true,
     "max-line-length": [
