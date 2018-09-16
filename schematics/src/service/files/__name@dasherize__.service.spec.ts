@@ -10,27 +10,27 @@ function init() {
   service = new <%= classify(name) %>Service(api);
 }
 
-describe('<%= classify(name) %>Service', function () {
-  describe('constructor', function () {
+describe('<%= classify(name) %>Service', () => {
+  describe('constructor', () => {
     beforeEach(() => {
       init();
     });
 
-    it('constructs', function () {
+    it('constructs', () => {
       expect(service).toBeDefined();
     });
   });
 
-  describe('get', function () {
+  describe('get', () => {
     beforeEach(() => {
       init();
     });
 
-    it('has a function named get', function () {
+    it('has a function named get', () => {
       expect(typeof service.get).toEqual('function');
     });
 
-    it('calls api.get()', function () {
+    it('calls api.get()', () => {
       const spy = spyOn(api, 'get').and.callThrough();
       service.get();
       expect(spy).toHaveBeenCalled();

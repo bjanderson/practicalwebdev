@@ -6,5 +6,5 @@
 
 <div mat-dialog-actions>
   <button mat-button (click)="deny()" *ngIf="data.showCancelButton">{{ data.cancelButtonText }}</button>
-  <button mat-button cdkFocusInitial (click)="confirm()">{{ data.okButtonText }}</button>
+  <button mat-button color="primary" cdkFocusInitial (click)="confirm()">{{ data.okButtonText }}</button>
 </div>

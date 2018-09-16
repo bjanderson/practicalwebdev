@@ -61,6 +61,54 @@ If `module` or `route` are set, it also generates a module file at:
 ### Example
     ng generate @practicalwebdev/schematics:component --name <component-name> -r
 
+
+## dialog
+
+Generate an Angular Material dialog component.
+Places files in `src/app/components`.
+
+Generates the following files
+
+<ul><li>src/app/components/&lt;name&gt;-dialog
+  <ul>
+    <li>index.ts</li>
+    <li>&lt;name&gt;-dialog-body.component.html</li>
+    <li>&lt;name&gt;-dialog-body.component.scss</li>
+    <li>&lt;name&gt;-dialog-body.component.spec.ts</li>
+    <li>&lt;name&gt;-dialog-body.component.ts</li>
+    <li>&lt;name&gt;-dialog.model.spec.ts</li>
+    <li>&lt;name&gt;-dialog.model.ts</li>
+    <li>&lt;name&gt;-dialog.component.html</li>
+    <li>&lt;name&gt;-dialog.component.scss</li>
+    <li>&lt;name&gt;-dialog.component.spec.ts</li>
+    <li>&lt;name&gt;-dialog.component.ts</li>
+    <li>&lt;name&gt;-dialog.module.ts</li>
+  </ul>
+</ul></li>
+
+### Parameters
+
+<table>
+
+  <tr>
+    <td>--name, -n</td>
+    <td>string</td>
+    <td>REQUIRED</td>
+    <td>The name of the component.</td>
+  </tr>
+
+  <tr>
+    <td>--prefix, -p</td>
+    <td>string</td>
+    <td>default: 'app'</td>
+    <td>The html element prefix for your component.</td>
+  </tr>
+
+<table>
+
+### Example
+    ng generate @practicalwebdev/schematics:dialog --name <name>
+
 ## model
 
 Generate a model, with unit tests, and automatically add it to the exports from `src/app/models/index.ts`

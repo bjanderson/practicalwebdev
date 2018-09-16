@@ -17,33 +17,33 @@ function init() {
   effects = new <%= classify(name) %>Effects(actions$, <%= camelize(name) %>Service);
 }
 
-describe('<%= classify(name) %>Effects', function () {
-  describe('constructor', function () {
+describe('<%= classify(name) %>Effects', () => {
+  describe('constructor', () => {
     beforeEach(() => {
       init();
     });
 
-    it('has a function named ', function () {
+    it('has a function named ', () => {
       expect(effects).toBeDefined();
     });
   });
 
-  describe('load<%= classify(name) %>()', function() {
+  describe('load<%= classify(name) %>()', () => {
     beforeEach(() => {
       init();
     });
 
-    it('is a function', function() {
+    it('is a function', () => {
        expect(typeof effects.load<%= classify(name) %>).toEqual('function');
     });
 
-    it('calls <%= camelize(name) %>Service.get()', function() {
+    it('calls <%= camelize(name) %>Service.get()', () => {
       const spy = spyOn(<%= camelize(name) %>Service, 'get').and.callThrough();
       effects.load<%= classify(name) %>();
       expect(spy).toHaveBeenCalled();
     });
 
-    it('it returns an instance of LoadSuccessAction', function(done) {
+    it('it returns an instance of LoadSuccessAction', (done) => {
       effects.<%= camelize(name) %>Service.get = () => of({});
       effects.load<%= classify(name) %>().pipe(take(1)).subscribe(result => {
         expect(result instanceof LoadSuccessAction).toEqual(true);
@@ -51,7 +51,7 @@ describe('<%= classify(name) %>Effects', function () {
       });
     });
 
-    it('it returns an instance of LoadFailAction', function(done) {
+    it('it returns an instance of LoadFailAction', (done) => {
       effects.<%= camelize(name) %>Service.get = () => throwError({});
       effects.load<%= classify(name) %>().pipe(take(1)).subscribe(result => {
         expect(result instanceof LoadFailAction).toEqual(true);

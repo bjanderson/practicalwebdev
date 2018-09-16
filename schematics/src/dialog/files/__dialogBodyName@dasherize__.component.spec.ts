@@ -10,13 +10,13 @@ function init() {
   component = new <%= classify(dialogBodyName) %>Component(dialogRef, data);
 }
 
-describe('<%= classify(dialogBodyName) %>Component', function () {
-  describe('constructor()', function () {
-    beforeEach(function () {
+describe('<%= classify(dialogBodyName) %>Component', () => {
+  describe('constructor()', () => {
+    beforeEach(() => {
       init();
     });
 
-    it('should create the component', function () {
+    it('should create the component', () => {
       expect(component).toBeDefined();
     });
   });

@@ -8,43 +8,43 @@ function init() {
   service = new <%= classify(name) %>StoreService(store);
 }
 
-describe('<%= classify(name) %>StoreService', function () {
-  describe('constructor', function () {
+describe('<%= classify(name) %>StoreService', () => {
+  describe('constructor', () => {
     beforeEach(() => {
       init();
     });
 
-    it('constructs', function () {
+    it('constructs', () => {
       expect(service).toBeDefined();
     });
   });
 
-  describe('get<%= classify(name) %>s()', function () {
+  describe('get<%= classify(name) %>s()', () => {
     beforeEach(() => {
       init();
     });
 
-    it('has a function named get<%= classify(name) %>s', function () {
+    it('has a function named get<%= classify(name) %>s', () => {
       expect(typeof service.get<%= classify(name) %>s).toEqual('function');
     });
 
-    it('calls store.select()', function () {
+    it('calls store.select()', () => {
       const spy = spyOn(store, 'select').and.returnValue(null);
       service.get<%= classify(name) %>s();
       expect(spy).toHaveBeenCalledWith(service.<%= camelize(name) %>sSelector);
     });
   });
 
-  describe('dispatchLoadAction()', function () {
+  describe('dispatchLoadAction()', () => {
     beforeEach(() => {
       init();
     });
 
-    it('has a function named dispatchLoadAction', function () {
+    it('has a function named dispatchLoadAction', () => {
       expect(typeof service.dispatchLoadAction).toEqual('function');
     });
 
-    it('calls dispatchAction()', function () {
+    it('calls dispatchAction()', () => {
       const spy = spyOn(service, 'dispatchAction').and.returnValue(null);
       service.dispatchLoadAction();
       expect(spy).toHaveBeenCalledWith(new LoadAction());
