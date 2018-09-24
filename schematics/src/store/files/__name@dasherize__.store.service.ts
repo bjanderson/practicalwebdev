@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
 import { createFeatureSelector, createSelector, Store } from '@ngrx/store';
+import { StoreService } from '@practicalwebdev/utils';
 
 import { <%= classify(name) %>StoreState } from '../../models';
-
-import { StoreService } from '../store';
 
 import { LoadAction } from './<%= dasherize(name) %>.store.actions';
 

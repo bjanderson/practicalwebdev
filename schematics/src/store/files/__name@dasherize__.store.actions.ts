@@ -1,4 +1,4 @@
-import { PayloadAction } from '../../models';
+import { PayloadAction } from '@practicalwebdev/utils';
 
 export const <%= classify(name) %>ActionTypes = {
   LOAD: '[<%= titleify(name) %>] Load',

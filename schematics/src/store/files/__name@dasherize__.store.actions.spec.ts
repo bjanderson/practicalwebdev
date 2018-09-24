@@ -21,18 +21,18 @@ describe('<%= classify(name) %>Actions', () => {
     });
   });
 
-  describe('LoadAction()', () => {
+  describe('LoadAction', () => {
     it('sets the correct action.type', () => {
-      const expected: any = ActionTypes.LOAD;
+      const expected: any = <%= classify(name) %>ActionTypes.LOAD;
       const result: any = new LoadAction().type;
       expect(result).toEqual(expected);
     });
   });
 
-  describe('LoadFailAction()', () => {
+  describe('LoadFailAction', () => {
     it('sets the correct action.type', () => {
       const payload: any = 'test-payload';
-      const expected: any = ActionTypes.LOAD_FAIL;
+      const expected: any = <%= classify(name) %>ActionTypes.LOAD_FAIL;
       const result: any = new LoadFailAction(payload).type;
       expect(result).toEqual(expected);
     });
@@ -45,10 +45,10 @@ describe('<%= classify(name) %>Actions', () => {
     });
   });
 
-  describe('LoadSuccessAction()', () => {
+  describe('LoadSuccessAction', () => {
     it('sets the correct action.type', () => {
       const payload: any = 'test-payload';
-      const expected: any = ActionTypes.LOAD_SUCCESS;
+      const expected: any = <%= classify(name) %>ActionTypes.LOAD_SUCCESS;
       const result: any = new LoadSuccessAction(payload).type;
       expect(result).toEqual(expected);
     });
