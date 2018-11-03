@@ -6,110 +6,78 @@
 
 ## component
 
+    ng generate @practicalwebdev/schematics:component -n <component-name> -p <html-prefix>
+
+### Parameters
+
+|||||
+|-|-|-|-|
+| --name, -n | string | REQUIRED | The name of the component. |
+| --prefix, -p | string | REQUIRED | The html element prefix for your component. |
+| --module, -m | boolean | default: true | Create a module for the component. |
+| --route, -r | boolean | default: false | Create a routable module for the component. |
+
+### Description
+
 Generate an Angular component.
 Places files in `src/app/components`.
 
 Generates the following files
 
-<ul><li>src/app/components/&lt;component-name&gt;
-  <ul>
-    <li>index.ts</li>
-    <li>&lt;component-name&gt;.component.html</li>
-    <li>&lt;component-name&gt;.component.scss</li>
-    <li>&lt;component-name&gt;.component.spec.ts</li>
-    <li>&lt;component-name&gt;.component.ts</li>
-  </ul>
-</ul></li>
+* src/app/components/&lt;component-name&gt;
+  * index.ts
+  * &lt;component-name&gt;.component.html
+  * &lt;component-name&gt;.component.scss
+  * &lt;component-name&gt;.component.spec.ts
+  * &lt;component-name&gt;.component.ts
+
 
 If `module` or `route` are set, it also generates a module file at:
 
 `src/app/components/<component-name>/<component-name>.module.ts`
 
-### Parameters
-
-<table>
-
-  <tr>
-    <td>--name, -n</td>
-    <td>string</td>
-    <td>REQUIRED</td>
-    <td>The name of the component.</td>
-  </tr>
-
-  <tr>
-    <td>--module, -m</td>
-    <td>boolean</td>
-    <td>default: false</td>
-    <td>Create a module for the component.</td>
-  </tr>
-
-  <tr>
-    <td>--prefix, -p</td>
-    <td>string</td>
-    <td>default: 'app'</td>
-    <td>The html element prefix for your component.</td>
-  </tr>
-
-  <tr>
-    <td>--route, -r</td>
-    <td>boolean</td>
-    <td>default: false</td>
-    <td>Create a routable module for the component.</td>
-  </tr>
-<table>
-
-### Example
-    ng generate @practicalwebdev/schematics:component --name <component-name> -r
-
 
 ## dialog
+
+    ng generate @practicalwebdev/schematics:dialog  -n <dialog-name> -p <html-prefix>
+
+### Parameters
+
+|||||
+|-|-|-|-|
+| --name, -n | string | REQUIRED | The name of the dialog. |
+| --prefix, -p | string | REQUIRED | The html element prefix for your dialog. |
+
+### Description
 
 Generate an Angular Material dialog component.
 Places files in `src/app/components`.
 
 Generates the following files
 
-<ul><li>src/app/components/&lt;name&gt;-dialog
-  <ul>
-    <li>index.ts</li>
-    <li>&lt;name&gt;-dialog-body.component.html</li>
-    <li>&lt;name&gt;-dialog-body.component.scss</li>
-    <li>&lt;name&gt;-dialog-body.component.spec.ts</li>
-    <li>&lt;name&gt;-dialog-body.component.ts</li>
-    <li>&lt;name&gt;-dialog.model.spec.ts</li>
-    <li>&lt;name&gt;-dialog.model.ts</li>
-    <li>&lt;name&gt;-dialog.component.html</li>
-    <li>&lt;name&gt;-dialog.component.scss</li>
-    <li>&lt;name&gt;-dialog.component.spec.ts</li>
-    <li>&lt;name&gt;-dialog.component.ts</li>
-    <li>&lt;name&gt;-dialog.module.ts</li>
-  </ul>
-</ul></li>
+* src/app/components/&lt;name&gt;-dialog
+  * index.ts
+  * &lt;name&gt;-dialog-body.component.html
+  * &lt;name&gt;-dialog-body.component.scss
+  * &lt;name&gt;-dialog-body.component.spec.ts
+  * &lt;name&gt;-dialog-body.component.ts
+  * &lt;name&gt;-dialog.component.html
+  * &lt;name&gt;-dialog.component.scss
+  * &lt;name&gt;-dialog.component.spec.ts
+  * &lt;name&gt;-dialog.component.ts
+  * &lt;name&gt;-dialog.module.ts
+
+## model
+
+    ng generate @practicalwebdev/schematics:model --name <model-name>
 
 ### Parameters
 
-<table>
+|||||
+|-|-|-|-|
+| --name, -n | string | REQUIRED | The name of the dialog. |
 
-  <tr>
-    <td>--name, -n</td>
-    <td>string</td>
-    <td>REQUIRED</td>
-    <td>The name of the component.</td>
-  </tr>
-
-  <tr>
-    <td>--prefix, -p</td>
-    <td>string</td>
-    <td>default: 'app'</td>
-    <td>The html element prefix for your component.</td>
-  </tr>
-
-<table>
-
-### Example
-    ng generate @practicalwebdev/schematics:dialog --name <name>
-
-## model
+### Description
 
 Generate a model, with unit tests, and automatically add it to the exports from `src/app/models/index.ts`
 
@@ -119,30 +87,22 @@ Places files in `src/app/models`.
 
 Generates the following files
 
-<ul><li>src/app/models/&lt;model-name&gt;
-  <ul>
-    <li>index.ts</li>
-    <li>&lt;model-name&gt;.model.spec.ts</li>
-    <li>&lt;model-name&gt;.model.ts</li>
-  </ul>
-</ul></li>
+* src/app/models/&lt;model-name&gt;
+  * index.ts
+  * &lt;model-name&gt;.model.spec.ts
+  * &lt;model-name&gt;.model.ts
+
+## service
+
+    ng generate @practicalwebdev/schematics:service --name <service-name>
 
 ### Parameters
 
-<table>
+|||||
+|-|-|-|-|
+| --name, -n | string | REQUIRED | The name of the dialog. |
 
-  <tr>
-    <td>--name, -n</td>
-    <td>string</td>
-    <td>REQUIRED</td>
-    <td>The name of the model.</td>
-  </tr>
-<table>
-
-### Example
-    ng generate @practicalwebdev/schematics:model --name <model-name>
-
-## service
+### Description
 
 Generate an Angular service, with unit tests, and automatically add it to the exports from `src/app/services/index.ts`
 
@@ -152,30 +112,22 @@ Places files in `src/app/services`.
 
 Generates the following files
 
-<ul><li>src/app/services/&lt;service-name&gt;
-  <ul>
-    <li>index.ts</li>
-    <li>&lt;service-name&gt;.service.spec.ts</li>
-    <li>&lt;service-name&gt;.service.ts</li>
-  </ul>
-</ul></li>
+* src/app/services/&lt;service-name&gt;
+  * index.ts
+  * &lt;service-name&gt;.service.spec.ts
+  * &lt;service-name&gt;.service.ts
+
+## store
+
+    ng generate @practicalwebdev/schematics:store --name <store-name>
 
 ### Parameters
 
-<table>
+|||||
+|-|-|-|-|
+| --name, -n | string | REQUIRED | The name of the dialog. |
 
-  <tr>
-    <td>--name, -n</td>
-    <td>string</td>
-    <td>REQUIRED</td>
-    <td>The name of the service.</td>
-  </tr>
-<table>
-
-### Example
-    ng generate @practicalwebdev/schematics:service --name <service-name>
-
-## store
+### Description
 
 Generate an ngrx store, with unit tests, and automatically add it to the exports from `src/app/store/index.ts`
 
@@ -185,25 +137,7 @@ Places files in `src/app/store`.
 
 Generates the following files
 
-<ul><li>src/app/store/&lt;store-name&gt;
-  <ul>
-    <li>index.ts</li>
-    <li>&lt;store-name&gt;.store.spec.ts</li>
-    <li>&lt;store-name&gt;.store.ts</li>
-  </ul>
-</ul></li>
-
-### Parameters
-
-<table>
-
-  <tr>
-    <td>--name, -n</td>
-    <td>string</td>
-    <td>REQUIRED</td>
-    <td>The name of the store.</td>
-  </tr>
-<table>
-
-### Example
-    ng generate @practicalwebdev/schematics:store --name <store-name>
+* src/app/store/&lt;store-name&gt;
+  * index.ts
+  * &lt;store-name&gt;.store.spec.ts
+  * &lt;store-name&gt;.store.ts
