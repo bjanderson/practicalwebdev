@@ -1,6 +1,6 @@
 {
   "name": "@practicalwebdev/schematics",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Angular schematics for doing things the @practicalwebdev way.",
   "author": "BJ Anderson",
   "license": "MIT",
@@ -35,15 +35,15 @@
     "push:patch": "npm version patch --no-git-tag-version && npm run push"
   },
   "devDependencies": {
-    "@angular-devkit/core": "0.6.8",
-    "@angular-devkit/schematics": "0.6.8",
-    "@angular/cli": "6.1.1",
-    "@types/jasmine": "2.8.8",
-    "@types/node": "10.5.2",
+    "@angular-devkit/core": "7.0.4",
+    "@angular-devkit/schematics": "7.0.4",
+    "@angular/cli": "7.0.4",
+    "@types/jasmine": "2.8.9",
+    "@types/node": "10.12.2",
     "copy": "0.3.2",
-    "jasmine": "3.1.0",
+    "jasmine": "3.3.0",
     "rimraf": "2.6.2",
-    "typescript": "2.9.2"
+    "typescript": "3.1.6"
   },
   "files": [
     "dist/",
