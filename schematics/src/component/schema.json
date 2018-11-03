@@ -11,13 +11,12 @@
     },
     "prefix": {
       "alias": "p",
-      "default": "app",
       "type": "string",
       "description": "The html element prefix for your component"
     },
     "module": {
       "alias": "m",
-      "default": false,
+      "default": true,
       "type": "boolean",
       "description": "Should this component have its own module?"
     },
@@ -29,6 +28,7 @@
     }
   },
   "required": [
-    "name"
+    "name",
+    "prefix"
   ]
 }

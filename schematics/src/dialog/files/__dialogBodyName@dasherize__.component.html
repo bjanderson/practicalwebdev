@@ -1,10 +1,16 @@
-<h1 mat-dialog-title>{{ data.title }}</h1>
+<h1 mat-dialog-title>
+  classify(dialogName) %>Component
+</h1>
 
 <div mat-dialog-content>
-  <p>{{ data.message }}</p>
+  <p>classify(dialogBodyName) %>Component</p>
 </div>
 
 <div mat-dialog-actions>
-  <button mat-button (click)="deny()" *ngIf="data.showCancelButton">{{ data.cancelButtonText }}</button>
-  <button mat-button color="primary" cdkFocusInitial (click)="confirm()">{{ data.okButtonText }}</button>
+  <button
+    aria-label="Close"
+    mat-button
+    (click)="close()">
+    Close
+  </button>
 </div>

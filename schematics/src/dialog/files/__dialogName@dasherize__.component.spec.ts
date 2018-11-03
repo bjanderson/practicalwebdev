@@ -1,10 +1,7 @@
-import { of } from 'rxjs';
 import { <%= classify(dialogName) %>Component } from './<%= dasherize(dialogName) %>.component';
 
 const dialog: any = {
-  open: () => {
-    return { afterClosed: () => of(true) };
-  }
+  open: () => {}
 };
 
 let component: any;
@@ -30,12 +27,6 @@ describe('<%= classify(dialogName) %>Component', () => {
 
     it('calls dialog.open()', () => {
       const spy = spyOn(component.dialog, 'open').and.callThrough();
-      component.open();
-      expect(spy).toHaveBeenCalled();
-    });
-
-    it('calls confirmed.emit() after the dialog is closed', () => {
-      const spy = spyOn(component.confirmed, 'emit').and.callThrough();
       component.open();
       expect(spy).toHaveBeenCalled();
     });

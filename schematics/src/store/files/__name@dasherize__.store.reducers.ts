@@ -7,14 +7,10 @@ export function <%= camelize(name) %>Reducer(state: <%= classify(name) %>StoreSt
   switch (action.type) {
 
     case <%= classify(name) %>ActionTypes.LOAD_SUCCESS:
-      return setValue(new <%= classify(name) %>StoreState(state), action.payload);
+      state.setValue(payload.action);
+      return new <%= classify(name) %>StoreState(state);
 
     default:
       return state;
   }
-}
-
-function setValue(stateClone: <%= classify(name) %>StoreState, payload: any) {
-  stateClone.value = payload;
-  return new <%= classify(name) %>StoreState(stateClone);
 }

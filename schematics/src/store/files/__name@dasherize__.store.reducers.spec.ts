@@ -12,12 +12,12 @@ describe('<%= camelize(name) %>Reducer', () => {
   });
 
   describe('LOAD_SUCCESS', () => {
-    it('returns the state with the payload added', () => {
-      const value = '<%= camelize(name) %>';
+    it('calls state.setValue', () => {
+      const value = 'test value';
       const state = new <%= classify(name) %>StoreState();
-      const expected: any = new <%= classify(name) %>StoreState({value});
-      const result: any = <%= camelize(name) %>Reducer(state, new LoadSuccessAction(value));
-      expect(result).toEqual(expected);
+      const spy = spyOn(state, 'setFlashCards').and.callThrough();
+      <%= camelize(name) %>Reducer(state, new LoadSuccessAction(value));
+      expect(spy).toHaveBeenCalled();
     });
   });
 });

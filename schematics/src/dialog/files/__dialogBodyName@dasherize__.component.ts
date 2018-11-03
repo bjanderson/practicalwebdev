@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
-import { <%= classify(dialogDataName) %> } from './<%= dasherize(dialogDataName) %>.model';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -9,16 +8,17 @@ import { <%= classify(dialogDataName) %> } from './<%= dasherize(dialogDataName)
   templateUrl: './<%= dasherize(dialogBodyName) %>.component.html'
 })
 export class <%= classify(dialogBodyName) %>Component {
+
+  parent: <%= classify(dialogName) %>;
+
   constructor(
     private dialogRef: MatDialogRef<<%= classify(dialogBodyName) %>Component>,
-    @Inject(MAT_DIALOG_DATA) private data: <%= classify(dialogDataName) %>
-  ) {}
-
-  confirm() {
-    this.dialogRef.close(true);
+    @Inject(MAT_DIALOG_DATA) private data: { parent: <%= classify(dialogName) %>}
+  ) {
+    this.parent = data.parent;
   }
 
-  deny() {
-    this.dialogRef.close(false);
+  close() {
+    this.dialogRef.close();
   }
 }

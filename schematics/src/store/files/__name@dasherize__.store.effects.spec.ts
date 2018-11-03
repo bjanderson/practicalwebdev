@@ -1,13 +1,18 @@
-import { EMPTY, of, throwError } from 'rxjs';
+import { EMPTY, of, throwError, from } from 'rxjs';
 import { take } from 'rxjs/operators';
 
 import {
+  LoadAction,
   LoadSuccessAction,
   LoadFailAction
 } from './<%= dasherize(name) %>.store.actions';
 import { <%= classify(name) %>Effects } from './<%= dasherize(name) %>.store.effects';
 
-const actions$: any = EMPTY;
+
+const actions$: any = from([
+  new LoadAction()
+]);
+
 const <%= camelize(name) %>Service: any = {
   get: () => EMPTY
 };
@@ -37,23 +42,23 @@ describe('<%= classify(name) %>Effects', () => {
        expect(typeof effects.load<%= classify(name) %>).toEqual('function');
     });
 
-    it('calls <%= camelize(name) %>Service.get()', () => {
-      const spy = spyOn(<%= camelize(name) %>Service, 'get').and.callThrough();
+    it('calls <%= classify(name) %>Service.get()', () => {
+      const spy = spyOn(<%= classify(name) %>Service, 'get').and.callThrough();
       effects.load<%= classify(name) %>();
       expect(spy).toHaveBeenCalled();
     });
 
     it('it returns an instance of LoadSuccessAction', (done) => {
-      effects.<%= camelize(name) %>Service.get = () => of({});
-      effects.load<%= classify(name) %>().pipe(take(1)).subscribe(result => {
+      effects.<%= classify(name) %>Service.get = () => of({});
+      effects.load<%= classify(name) %>$.pipe(take(1)).subscribe(result => {
         expect(result instanceof LoadSuccessAction).toEqual(true);
         done();
       });
     });
 
     it('it returns an instance of LoadFailAction', (done) => {
-      effects.<%= camelize(name) %>Service.get = () => throwError({});
-      effects.load<%= classify(name) %>().pipe(take(1)).subscribe(result => {
+      effects.<%= classify(name) %>Service.get = () => throwError({});
+      effects.load<%= classify(name) %>$.pipe(take(1)).subscribe(result => {
         expect(result instanceof LoadFailAction).toEqual(true);
         done();
       });

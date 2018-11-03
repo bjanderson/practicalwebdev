@@ -3,7 +3,10 @@ import { <%= classify(dialogBodyName) %>Component } from './<%= dasherize(dialog
 const dialogRef: any = {
   close: () => undefined
 };
-const data: any = {};
+
+const data: any = {
+  parent: {}
+};
 
 let component;
 function init() {
@@ -21,10 +24,10 @@ describe('<%= classify(dialogBodyName) %>Component', () => {
     });
   });
 
-  describe('confirm()', () => {
+  describe('close()', () => {
     it('calls dialogRef.close()', () => {
       const spy = spyOn(component.dialogRef, 'close').and.callThrough();
-      component.confirm();
+      component.close();
       expect(spy).toHaveBeenCalled();
     });
   });

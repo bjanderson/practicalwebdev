@@ -8,9 +8,9 @@ import { config } from '../utils';
 const collectionPath = path.join(__dirname, '../collection.json');
 
 describe('component', () => {
-  it('generates the expected component files', () => {
+  it('does not create a module file when module === false', () => {
     const runner = new SchematicTestRunner('schematics', collectionPath);
-    const tree = runner.runSchematic('component', {name: 'test-component'}, Tree.empty());
+    const tree = runner.runSchematic('component', {name: 'test-component', prefix: 'tst', module: false}, Tree.empty());
 
     expect(tree.files).toEqual([
       `/${config.componentsDir}/test/index.ts`,
@@ -21,9 +21,9 @@ describe('component', () => {
     ]);
   });
 
-  it('generates the module file when module is true', () => {
+  it('generates the module file by default', () => {
     const runner = new SchematicTestRunner('schematics', collectionPath);
-    const tree = runner.runSchematic('component', {name: 'test-component', module: true}, Tree.empty());
+    const tree = runner.runSchematic('component', {name: 'test-component', prefix: 'tst'}, Tree.empty());
 
     expect(tree.files).toEqual([
       `/${config.componentsDir}/test/test.module.ts`,
@@ -37,7 +37,7 @@ describe('component', () => {
 
   it('generates the module file when route is true', () => {
     const runner = new SchematicTestRunner('schematics', collectionPath);
-    const tree = runner.runSchematic('component', {name: 'test-component', route: true}, Tree.empty());
+    const tree = runner.runSchematic('component', {name: 'test-component', prefix: 'tst', route: true}, Tree.empty());
 
     expect(tree.files).toEqual([
       `/${config.componentsDir}/test/test.module.ts`,

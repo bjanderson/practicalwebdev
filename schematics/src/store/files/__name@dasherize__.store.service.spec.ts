@@ -1,7 +1,12 @@
 import { LoadAction } from './<%= dasherize(name) %>.store.actions';
 import { <%= classify(name) %>StoreService } from './<%= dasherize(name) %>.store.service';
 
-const store: any = {select: () => undefined};
+const value = 'test value'
+const store: any = of({
+  [<%= classify(name) %>StoreState.storeName]: new <%= classify(name) %>StoreState.storeName({
+    value
+  })
+});
 
 let service: any;
 function init() {
@@ -19,19 +24,20 @@ describe('<%= classify(name) %>StoreService', () => {
     });
   });
 
-  describe('get<%= classify(name) %>s()', () => {
+  describe('getValue()', () => {
     beforeEach(() => {
       init();
     });
 
-    it('has a function named get<%= classify(name) %>s', () => {
-      expect(typeof service.get<%= classify(name) %>s).toEqual('function');
+    it('has a function named getValue', () => {
+      expect(typeof service.getValue).toEqual('function');
     });
 
-    it('calls store.select()', () => {
-      const spy = spyOn(store, 'select').and.returnValue(null);
-      service.get<%= classify(name) %>s();
-      expect(spy).toHaveBeenCalledWith(service.<%= camelize(name) %>sSelector);
+    it('gets the value from the store', (done) => {
+      service.getValue().subscribe((result: string) => {
+        expect(result).toEqual(value);
+        done();
+      });
     });
   });
 

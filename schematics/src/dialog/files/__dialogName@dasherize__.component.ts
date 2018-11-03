@@ -1,9 +1,7 @@
-import { ChangeDetectionStrategy, EventEmitter, Component, Output, Input } from '@angular/core';
-import { MatDialog, MatDialogConfig } from '@angular/material';
-import { take } from 'rxjs/operators';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { MatDialog, MatDialogConfig, MatDialogRef } from '@angular/material';
 
 import { <%= classify(dialogBodyName) %>Component } from './<%= dasherize(dialogBodyName) %>.component';
-import { <%= classify(dialogDataName) %> } from './<%= dasherize(dialogDataName) %>.model';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -12,30 +10,25 @@ import { <%= classify(dialogDataName) %> } from './<%= dasherize(dialogDataName)
   templateUrl: './<%= dasherize(dialogName) %>.component.html'
 })
 export class <%= classify(dialogName) %>Component {
-  @Input() config = new MatDialogConfig();
-  @Input() data = new <%= classify(dialogDataName) %>();
   @Input() showButton = true;
 
-  @Output() confirmed = new EventEmitter();
+  dialogRef: MatDialogRef<<%= classify(dialogBodyName) %>>;
 
-  constructor(private dialog: MatDialog) {}
+  constructor(
+    private dialog: MatDialog
+  ) {}
 
   open(): void {
-    this.config.autoFocus = true;
-    this.config.closeOnNavigation = true;
-    this.config.disableClose = false;
-    this.config.hasBackdrop = true;
-    this.config.panelClass = 'my-dialog';
-    this.config.maxHeight = '90vh';
-    this.config.width = '50%';
-    this.config.maxWidth = '50rem';
-    this.config.data = this.data;
-    const dialogRef = this.dialog.open(<%= classify(dialogBodyName) %>Component, this.config);
-
-    dialogRef.afterClosed()
-      .pipe(take(1))
-      .subscribe((confirmed: boolean) => {
-        this.confirmed.emit(confirmed);
-      });
+    const config = new MatDialogConfig();
+    config.autoFocus = true;
+    config.closeOnNavigation = true;
+    config.disableClose = false;
+    config.hasBackdrop = true;
+    config.panelClass = 'standard-dialog';
+    config.maxHeight = '90vh';
+    config.width = '50%';
+    config.maxWidth = '50rem';
+    config.data = { parent: this };
+    dialogRef = this.dialog.open(<%= classify(dialogBodyName) %>Component, config);
   }
 }

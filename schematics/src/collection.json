@@ -29,7 +29,7 @@
     "store": {
       "description": "Create a new store.",
       "factory": "./store/index#store",
-      "schema": "./component/schema.json"
+      "schema": "./store/schema.json"
     }
   }
 }
