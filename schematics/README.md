@@ -55,21 +55,21 @@ Places files in `src/app/components`.
 
 Generates the following files
 
-* src/app/components/&lt;name&gt;-dialog
+* src/app/components/&lt;dialog-name&gt;-dialog
   * index.ts
-  * &lt;name&gt;-dialog-body.component.html
-  * &lt;name&gt;-dialog-body.component.scss
-  * &lt;name&gt;-dialog-body.component.spec.ts
-  * &lt;name&gt;-dialog-body.component.ts
-  * &lt;name&gt;-dialog.component.html
-  * &lt;name&gt;-dialog.component.scss
-  * &lt;name&gt;-dialog.component.spec.ts
-  * &lt;name&gt;-dialog.component.ts
-  * &lt;name&gt;-dialog.module.ts
+  * &lt;dialog-name&gt;-dialog-body.component.html
+  * &lt;dialog-name&gt;-dialog-body.component.scss
+  * &lt;dialog-name&gt;-dialog-body.component.spec.ts
+  * &lt;dialog-name&gt;-dialog-body.component.ts
+  * &lt;dialog-name&gt;-dialog.component.html
+  * &lt;dialog-name&gt;-dialog.component.scss
+  * &lt;dialog-name&gt;-dialog.component.spec.ts
+  * &lt;dialog-name&gt;-dialog.component.ts
+  * &lt;dialog-name&gt;-dialog.module.ts
 
 ## model
 
-    ng generate @practicalwebdev/schematics:model --name <model-name>
+    ng generate @practicalwebdev/schematics:model -n <model-name>
 
 ### Parameters
 
@@ -94,7 +94,7 @@ Generates the following files
 
 ## service
 
-    ng generate @practicalwebdev/schematics:service --name <service-name>
+    ng generate @practicalwebdev/schematics:service -n <service-name>
 
 ### Parameters
 
@@ -119,7 +119,7 @@ Generates the following files
 
 ## store
 
-    ng generate @practicalwebdev/schematics:store --name <store-name>
+    ng generate @practicalwebdev/schematics:store -n <store-name>
 
 ### Parameters
 
