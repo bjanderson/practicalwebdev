@@ -43,13 +43,13 @@ describe('<%= classify(name) %>Effects', () => {
     });
 
     it('calls <%= classify(name) %>Service.get()', () => {
-      const spy = spyOn(<%= classify(name) %>Service, 'get').and.callThrough();
+      const spy = spyOn(<%= camelize(name) %>Service, 'get').and.callThrough();
       effects.load<%= classify(name) %>();
       expect(spy).toHaveBeenCalled();
     });
 
     it('it returns an instance of LoadSuccessAction', (done) => {
-      effects.<%= classify(name) %>Service.get = () => of({});
+      effects.<%= camelize(name) %>Service.get = () => of({});
       effects.load<%= classify(name) %>$.pipe(take(1)).subscribe(result => {
         expect(result instanceof LoadSuccessAction).toEqual(true);
         done();
@@ -57,7 +57,7 @@ describe('<%= classify(name) %>Effects', () => {
     });
 
     it('it returns an instance of LoadFailAction', (done) => {
-      effects.<%= classify(name) %>Service.get = () => throwError({});
+      effects.<%= camelize(name) %>Service.get = () => throwError({});
       effects.load<%= classify(name) %>$.pipe(take(1)).subscribe(result => {
         expect(result instanceof LoadFailAction).toEqual(true);
         done();

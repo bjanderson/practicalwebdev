@@ -1,4 +1,4 @@
-import { <%= classify(name) %>StoreState } from '../../models';
+import { <%= classify(name) %>StoreState } from 'src/app/models';
 
 import { <%= classify(name) %>Action, <%= classify(name) %>ActionTypes } from './<%= dasherize(name) %>.store.actions';
 

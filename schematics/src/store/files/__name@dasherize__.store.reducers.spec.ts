@@ -1,4 +1,4 @@
-import { <%= classify(name) %>StoreState } from '../../models';
+import { <%= classify(name) %>StoreState } from 'src/app/models';
 
 import { LoadSuccessAction } from './<%= dasherize(name) %>.store.actions';
 import { <%= camelize(name) %>Reducer } from './<%= dasherize(name) %>.store.reducers';
@@ -15,7 +15,7 @@ describe('<%= camelize(name) %>Reducer', () => {
     it('calls state.setValue', () => {
       const value = 'test value';
       const state = new <%= classify(name) %>StoreState();
-      const spy = spyOn(state, 'setFlashCards').and.callThrough();
+      const spy = spyOn(state, 'setValue').and.callThrough();
       <%= camelize(name) %>Reducer(state, new LoadSuccessAction(value));
       expect(spy).toHaveBeenCalled();
     });

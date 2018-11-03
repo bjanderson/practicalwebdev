@@ -1,9 +1,11 @@
+import { of } from 'rxjs';
+import { <%= classify(name) %>StoreState } from 'src/app/models';
 import { LoadAction } from './<%= dasherize(name) %>.store.actions';
 import { <%= classify(name) %>StoreService } from './<%= dasherize(name) %>.store.service';
 
-const value = 'test value'
+const value = 'test value';
 const store: any = of({
-  [<%= classify(name) %>StoreState.storeName]: new <%= classify(name) %>StoreState.storeName({
+  [<%= classify(name) %>StoreService.storeName]: new <%= classify(name) %>StoreState({
     value
   })
 });

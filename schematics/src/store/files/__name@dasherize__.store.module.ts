@@ -13,7 +13,7 @@ import { <%= classify(name) %>StoreService } from './<%= dasherize(name) %>.stor
   ],
 
   imports: [
-    StoreModule.forFeature(<%= classify(name) %>StoreState.storeName, <%= camelize(name) %>Reducer),
+    StoreModule.forFeature(<%= classify(name) %>StoreService.storeName, <%= camelize(name) %>Reducer),
     EffectsModule.forFeature([<%= classify(name) %>Effects])
   ],
 
