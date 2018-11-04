@@ -12,7 +12,7 @@ import { <%= classify(dialogBodyName) %>Component } from './<%= dasherize(dialog
 export class <%= classify(dialogName) %>Component {
   @Input() showButton = true;
 
-  dialogRef: MatDialogRef<<%= classify(dialogBodyName) %>>;
+  dialogRef: MatDialogRef<<%= classify(dialogBodyName) %>Component>;
 
   constructor(
     private dialog: MatDialog
@@ -29,6 +29,6 @@ export class <%= classify(dialogName) %>Component {
     config.width = '50%';
     config.maxWidth = '50rem';
     config.data = { parent: this };
-    dialogRef = this.dialog.open(<%= classify(dialogBodyName) %>Component, config);
+    this.dialogRef = this.dialog.open(<%= classify(dialogBodyName) %>Component, config);
   }
 }

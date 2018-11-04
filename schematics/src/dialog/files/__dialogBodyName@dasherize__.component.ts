@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
+import { <%= classify(dialogName) %>Component } from './flash-card-form-dialog.component';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -9,11 +10,11 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
 })
 export class <%= classify(dialogBodyName) %>Component {
 
-  parent: <%= classify(dialogName) %>;
+  parent: <%= classify(dialogName) %>Component;
 
   constructor(
     private dialogRef: MatDialogRef<<%= classify(dialogBodyName) %>Component>,
-    @Inject(MAT_DIALOG_DATA) private data: { parent: <%= classify(dialogName) %>}
+    @Inject(MAT_DIALOG_DATA) private data: { parent: <%= classify(dialogName) %>Component}
   ) {
     this.parent = data.parent;
   }
