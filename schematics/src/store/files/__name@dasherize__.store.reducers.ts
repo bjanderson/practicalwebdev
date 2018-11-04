@@ -7,7 +7,7 @@ export function <%= camelize(name) %>Reducer(state: <%= classify(name) %>StoreSt
   switch (action.type) {
 
     case <%= classify(name) %>ActionTypes.LOAD_SUCCESS:
-      state.setValue(payload.action);
+      state.setValue(action.payload);
       return new <%= classify(name) %>StoreState(state);
 
     default:
