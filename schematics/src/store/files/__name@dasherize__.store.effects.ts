@@ -17,6 +17,7 @@ export class <%= classify(name) %>Effects {
   @Effect()
   load<%= classify(name) %>$: Observable<<%= classify(name) %>Action> = this.actions$.pipe(
     ofType(<%= classify(name) %>ActionTypes.LOAD),
+    map((action: <%= classify(name) %>Action) => action.payload),
     switchMap(this.load<%= classify(name) %>.bind(this)));
 
   constructor(

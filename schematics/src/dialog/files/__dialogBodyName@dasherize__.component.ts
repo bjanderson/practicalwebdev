@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material';
-import { <%= classify(dialogName) %>Component } from './flash-card-form-dialog.component';
+import { <%= classify(dialogName) %>Component } from './<%= dasherize(dialogName) %>.component';
 
 @Component({
   changeDetection: ChangeDetectionStrategy.OnPush,

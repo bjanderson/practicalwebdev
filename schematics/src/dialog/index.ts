@@ -11,13 +11,14 @@ import {
 
 import { camelize, capitalize, classify, dasherize } from '@angular-devkit/core/src/utils/strings';
 
-import { config } from '../utils';
+import { config, titleify } from '../utils';
 
 const stringUtils = {
   camelize,
   capitalize,
   classify,
-  dasherize
+  dasherize,
+  titleify,
 };
 
 export function dialog(options: any): Rule {
