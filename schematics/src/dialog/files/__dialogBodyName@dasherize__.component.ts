@@ -19,7 +19,7 @@ export class <%= classify(dialogBodyName) %>Component {
     this.parent = data.parent;
   }
 
-  close() {
+  close(): void {
     this.dialogRef.close();
   }
 }
